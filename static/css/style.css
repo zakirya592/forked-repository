@@ -112,7 +112,7 @@
 }
 
 .nab-logo-image {
-    background-image: url(./img/Transparent\ Backgreound\ 3D.png);
+    background-image: url(../../img/3D\ Mockup.png);
     background-repeat: no-repeat;
     background-size: auto 40px;
     background-position: 1px;
@@ -600,7 +600,7 @@
 }
 
 .na-logo {
-    background-image: url(./img/Transparent\ Backgreound\ 3D.png);
+    background-image: url("../../static/img/3D\ Mockup.png");
     background-repeat: no-repeat;
     background-size: auto 38px;
     display: block;
@@ -940,7 +940,7 @@
 
 .restricted .row {
     padding-top: 400px;
-    background: url(./img/dark/globe.2155bbed.png) no-repeat top
+    background: url("../../static/img/dark/globe.2155bbed.png") no-repeat top
 }
 
 .restricted-info {
@@ -948,12 +948,12 @@
     border-radius: 6px;
     padding: 14px 14px 14px 150px;
     text-align: left;
-    background: #263340 url(./img/dark/restricted.680e088c.png) no-repeat 14px 14px;
+    background: #263340 url("../../static/img/dark/restricted.680e088c.png") no-repeat 14px 14px;
     min-height: 160px
 }
 
 .restricted-info-support {
-    background-image: url(./img/dark/email.77c94d50.png)
+    background-image: url("../../static/img/dark/email.77c94d50.png")
 }
 
 @media(max-width:991.98px) {
@@ -4595,7 +4595,7 @@ textarea.form-control {
 .was-validated .form-control:valid {
     border-color: #63b2e6;
     padding-right: calc(1.5em + .75rem) !important;
-    background-image: url(data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSc4JyBoZWlnaHQ9JzgnPjxwYXRoIGZpbGw9JyM2M2IyZTYnIGQ9J00yLjMgNi43M0wuNiA0LjUzYy0uNC0xLjA0LjQ2LTEuNCAxLjEtLjhsMS4xIDEuNCAzLjQtMy44Yy42LS42MyAxLjYtLjI3IDEuMi43bC00IDQuNmMtLjQzLjUtLjguNC0xLjEuMXonLz48L3N2Zz4=);
+    background-image: url("data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSc4JyBoZWlnaHQ9JzgnPjxwYXRoIGZpbGw9JyM2M2IyZTYnIGQ9J00yLjMgNi43M0wuNiA0LjUzYy0uNC0xLjA0LjQ2LTEuNCAxLjEtLjhsMS4xIDEuNCAzLjQtMy44Yy42LS42MyAxLjYtLjI3IDEuMi43bC00IDQuNmMtLjQzLjUtLjguNC0xLjEuMXonLz48L3N2Zz4=");
     background-repeat: no-repeat;
     background-position: right calc(.375em + .1875rem) center;
     background-size: calc(.75em + .375rem) calc(.75em + .375rem)
@@ -4718,7 +4718,7 @@ textarea.form-control.is-valid {
 .was-validated .form-control:invalid {
     border-color: #f05b60;
     padding-right: calc(1.5em + .75rem) !important;
-    background-image: url(data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMicgaGVpZ2h0PScxMicgZmlsbD0nbm9uZScgc3Ryb2tlPScjZjA1YjYwJz48Y2lyY2xlIGN4PSc2JyBjeT0nNicgcj0nNC41Jy8+PHBhdGggc3Ryb2tlLWxpbmVqb2luPSdyb3VuZCcgZD0nTTUuOCAzLjZoLjRMNiA2LjV6Jy8+PGNpcmNsZSBjeD0nNicgY3k9JzguMicgcj0nLjYnIGZpbGw9JyNmMDViNjAnIHN0cm9rZT0nbm9uZScvPjwvc3ZnPg==);
+    background-image: url("data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMicgaGVpZ2h0PScxMicgZmlsbD0nbm9uZScgc3Ryb2tlPScjZjA1YjYwJz48Y2lyY2xlIGN4PSc2JyBjeT0nNicgcj0nNC41Jy8+PHBhdGggc3Ryb2tlLWxpbmVqb2luPSdyb3VuZCcgZD0nTTUuOCAzLjZoLjRMNiA2LjV6Jy8+PGNpcmNsZSBjeD0nNicgY3k9JzguMicgcj0nLjYnIGZpbGw9JyNmMDViNjAnIHN0cm9rZT0nbm9uZScvPjwvc3ZnPg==");
     background-repeat: no-repeat;
     background-position: right calc(.375em + .1875rem) center;
     background-size: calc(.75em + .375rem) calc(.75em + .375rem)
@@ -16641,28 +16641,28 @@ input[type=color].form-control:disabled {
 .alert.alert-icon-lg-info:before,
 .alert.alert-icon-sm-info:before,
 .alert.alert-icon-xs-info:before {
-    background-image: url(./img/alert/icon-primary.b4a8a96f.png)
+    background-image: url("./img/alert/icon-primary.b4a8a96f.png")
 }
 
 .alert.alert-icon-danger:before,
 .alert.alert-icon-lg-danger:before,
 .alert.alert-icon-sm-danger:before,
 .alert.alert-icon-xs-danger:before {
-    background-image: url(./img/alert/icon-danger.8682d95a.png)
+    background-image: url("./img/alert/icon-danger.8682d95a.png")
 }
 
 .alert.alert-icon-lg-warning:before,
 .alert.alert-icon-sm-warning:before,
 .alert.alert-icon-warning:before,
 .alert.alert-icon-xs-warning:before {
-    background-image: url(./img/alert/icon-warning.2cf378d7.png)
+    background-image: url("./img/alert/icon-warning.2cf378d7.png")
 }
 
 .alert.alert-icon-lg-success:before,
 .alert.alert-icon-sm-success:before,
 .alert.alert-icon-success:before,
 .alert.alert-icon-xs-success:before {
-    background-image: url(./img/alert/icon-success.687722dd.png)
+    background-image: url("./img/alert/icon-success.687722dd.png")
 }
 
 .alert.alert-icon-danger,
@@ -18607,98 +18607,98 @@ ul.stepper li a .label {
 }
 
 .bet-header {
-    background: url(./img/dark/dice.6d65f4dd.png) 50% no-repeat
+    background: url("../../static/img/dark/dice.6d65f4dd.png") 50% no-repeat
 }
 
 .boom-header,
 .slot-header {
-    background: url(./img/dark/boom.f6699363.png) 50% no-repeat
+    background: url("../../static/img/dark/boom.f6699363.png") 50% no-repeat
 }
 
 .caraycruz-header {
-    background: url(./img/dark/caraycruz.712cc900.png) 50% no-repeat
+    background: url("../../static/img/dark/caraycruz.712cc900.png") 50% no-repeat
 }
 
 .dice-header,
 .twist-header {
-    background: url(./img/dark/dice.40aa2a06.png) 50% no-repeat
+    background: url("../../static/img/dark/dice.40aa2a06.png") 50% no-repeat
 }
 
 .dicey-header {
-    background: url(./img/dark/dicey.eb6e87f9.png) 50% no-repeat
+    background: url("../../static/img/dark/dicey.eb6e87f9.png") 50% no-repeat
 }
 
 .multicolor-header {
-    background: url(./img/dark/multicolor.d3c2b68c.png) 50% no-repeat
+    background: url("../../static/img/dark/multicolor.d3c2b68c.png") 50% no-repeat
 }
 
 .roulette-header {
-    background: url(./img/dark/roulette.a93a69c0.png) 50% no-repeat
+    background: url("../../static/img/dark/roulette.a93a69c0.png") 50% no-repeat
 }
 
 .flashroulette-header {
-    background: url(./img/dark/flashroulette.7b01f880.png) 50% no-repeat
+    background: url("../../static/img/dark/flashroulette.7b01f880.png") 50% no-repeat
 }
 
 .blast-header {
-    background: url(./img/dark/blast.bda1b6ef.png) 50% no-repeat
+    background: url("../../static/img/dark/blast.bda1b6ef.png") 50% no-repeat
 }
 
 .fruitsler-header {
-    background: url(./img/dark/fruitsler.abd6e8d8.png) 50% no-repeat
+    background: url("../../static/img/dark/fruitsler.abd6e8d8.png)" 50% no-repeat
 }
 
 .sports-header {
-    background: url(./img/dark/sports.ee8a1b32.png) 50% no-repeat
+    background: url("../../static/img/dark/sports.ee8a1b32.png") 50% no-repeat
 }
 
 .bet-esports-header {
-    background: url(./img/dark/esports.0a8bd932.png) 50% no-repeat
+    background: url("../../static/img/dark/esports.0a8bd932.png") 50% no-repeat
 }
 
 .cryptothugs-header {
-    background: url(./img/dark/cryptothugs.c04c01cf.png) 50% no-repeat
+    background: url("../../static/img/dark/cryptothugs.c04c01cf.png") 50% no-repeat
 }
 
 .blackjack-header {
-    background: url(./img/dark/blackjack.c4cf1102.png) 50% no-repeat
+    background: url("../../static/img/dark/blackjack.c4cf1102.png") 50% no-repeat
 }
 
 .login-header,
 .register-header {
-    background: url(./img/dark/logreg.8e9f7ff6.png) 50% no-repeat
+    background: url("../../static/img/dark/logreg.8e9f7ff6.png") 50% no-repeat
 }
 
 .plinko-header {
-    background: url(./img/dark/plinko.148102b2.png) 50% no-repeat
+    background: url("../../static/img/dark/plinko.148102b2.png") 50% no-repeat
 }
 
 .videopoker-header {
-    background: url(./img/dark/videopoker.3686f07b.png) 50% no-repeat
+    background: url("./img/dark/videopoker.3686f07b.png") 50% no-repeat
 }
 
 .baccarat-header {
-    background: url(./img/dark/baccarat.c755b239.png) 50% no-repeat
+    background: url("../../static/img/dark/baccarat.c755b239.png") 50% no-repeat
 }
 
 .hilo-header {
-    background: url(./img/dark/hilo.3efd8f2e.png) 50% no-repeat
+    background: url("../../static/img/dark/hilo.3efd8f2e.png") 50% no-repeat
 }
 
 .mines-header {
-    background: url(./img/dark/mines.7adf14ea.png) 50% no-repeat
+    background: url("../../static/img/dark/mines.7adf14ea.png") 50% no-repeat
 }
 
 .chests-header {
-    background: url(./img/dark/chests.8951c894.png) 50% no-repeat
+    background: url("../../static/img/dark/chests.8951c894.png") 50% no-repeat
 }
 
 .keno-header {
-    background: url(./img/dark/keno.1fe07830.png) 50% no-repeat
+    background: url("../../static/img/dark/keno.1fe07830.png") 50% no-repeat
 }
 
 .ultimatepoker-header {
-    background: url(./img/dark/ultimatepoker.4f24ba32.png) 50% no-repeat
+    background: url("../../static/img/dark/ultimatepoker.4f24ba32.png") 50% no-repeat
 }
 
 .blast-icon {
@@ -18786,11 +18786,11 @@ ul.stepper li a .label {
 }
 
 .videopoker-icon {
-    background-image: url(./img/modal/icon_videopoker.c225a7e6.png)
+    background-image: url("../../static/img/modal/icon_videopoker.c225a7e6.png")
 }
 
 .ultimatepoker-icon {
-    background-image: url(./img/modal/icon_ultimatepoker.0c2ca1b0.png)
+    background-image: url("../../static/img/modal/icon_ultimatepoker.0c2ca1b0.png")
 }
 
 .icon-sports {
@@ -23805,15 +23805,16 @@ a.fo-res-link {
 }
 
 .ov li.ov-casino a>span.image {
-    background-image: url(./img/dashboard/casino.da0f460b.png)
+    background-image: url("../static/img/dashboard/casino.da0f460b.png");
 }
 
 .ov li.ov-sports a>span.image {
-    background-image: url(./img/dashboard/sports.ab744f3a\ \(1\).png)
+    /* background-image: url("../../static/img/dashboard/sports.ab744f3a.png"); */
+    background-image:url("../img/dashboard/sports.ab744f3a.png");
 }
 
 .ov li.ov-esports a>span.image {
-    background-image: url(./img/dashboard/esports.86e070a3.png)
+    background-image: url("..//img/dashboard/esports.86e070a3.png");
 }
 
 .ov-billion {
