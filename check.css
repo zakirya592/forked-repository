@@ -112,7 +112,7 @@
 }
 
 .nab-logo-image {
-    background-image: url("../../img/3D\ Mockup.png");
+    background-image: url(/static/img/logo_white.9702d1c0.svg);
     background-repeat: no-repeat;
     background-size: auto 40px;
     background-position: 1px;
@@ -600,7 +600,7 @@
 }
 
 .na-logo {
-    background-image: url("../../static/img/3D\ Mockup.png");
+    background-image: url(/static/img/logo_white.9702d1c0.svg);
     background-repeat: no-repeat;
     background-size: auto 38px;
     display: block;
@@ -940,7 +940,7 @@
 
 .restricted .row {
     padding-top: 400px;
-    background: url("../../static/img/dark/globe.2155bbed.png") no-repeat top
+    background: url(/static/img/dark/globe.2155bbed.png) no-repeat top
 }
 
 .restricted-info {
@@ -948,12 +948,12 @@
     border-radius: 6px;
     padding: 14px 14px 14px 150px;
     text-align: left;
-    background: #263340 url("../../static/img/dark/restricted.680e088c.png") no-repeat 14px 14px;
+    background: #263340 url(/static/img/dark/restricted.680e088c.png) no-repeat 14px 14px;
     min-height: 160px
 }
 
 .restricted-info-support {
-    background-image: url("../../static/img/dark/email.77c94d50.png")
+    background-image: url(/static/img/dark/email.77c94d50.png)
 }
 
 @media(max-width:991.98px) {
@@ -1556,7 +1556,7 @@
 * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)*/
 @font-face {
     font-family: PassionOne;
-    src: url(./fonts/PassionOne-Regular-subset.9213c2e8.woff2) format("woff2"), url(./fonts/PassionOne-Regular-subset.64527c68.woff) format("woff");
+    src: url(/static/fonts/PassionOne-Regular-subset.9213c2e8.woff2) format("woff2"), url(/static/fonts/PassionOne-Regular-subset.64527c68.woff) format("woff");
     font-style: normal;
     font-weight: 400;
     font-display: swap
@@ -1564,7 +1564,7 @@
 
 @font-face {
     font-family: Roboto;
-    src: url(./fonts/Roboto-Regular.f36638c2.ttf) format("truetype");
+    src: url(/static/fonts/Roboto-Regular.f36638c2.ttf) format("truetype");
     font-style: normal;
     font-weight: 400;
     font-display: swap
@@ -1572,7 +1572,7 @@
 
 @font-face {
     font-family: NotoSans;
-    src: url(./fonts/NotoSans-Bold-subset.8e32df94.woff2) format("woff2"), url(./fonts/NotoSans-Bold-subset.253cc90f.woff) format("woff");
+    src: url(/static/fonts/NotoSans-Bold-subset.8e32df94.woff2) format("woff2"), url(/static/fonts/NotoSans-Bold-subset.253cc90f.woff) format("woff");
     font-weight: 700;
     font-style: normal;
     font-display: swap
@@ -1580,7 +1580,7 @@
 
 @font-face {
     font-family: NotoSans-Bold;
-    src: url(./fonts/NotoSans-Bold-subset.8e32df94.woff2) format("woff2"), url(./fonts/NotoSans-Bold-subset.253cc90f.woff) format("woff");
+    src: url(/static/fonts/NotoSans-Bold-subset.8e32df94.woff2) format("woff2"), url(/static/fonts/NotoSans-Bold-subset.253cc90f.woff) format("woff");
     font-weight: 400;
     font-style: normal;
     font-display: swap
@@ -1588,7 +1588,7 @@
 
 @font-face {
     font-family: NotoSans;
-    src: url(./fonts/NotoSans-BoldItalic-subset.d1b60ffd.woff2) format("woff2"), url(./fonts/NotoSans-BoldItalic-subset.7d286863.woff) format("woff");
+    src: url(/static/fonts/NotoSans-BoldItalic-subset.d1b60ffd.woff2) format("woff2"), url(/static/fonts/NotoSans-BoldItalic-subset.7d286863.woff) format("woff");
     font-weight: 700;
     font-style: italic;
     font-display: swap
@@ -1596,7 +1596,7 @@
 
 @font-face {
     font-family: NotoSans;
-    src: url(./fonts/NotoSans-Italic-subset.1a53ed99.woff2) format("woff2"), url(./fonts/NotoSans-Italic-subset.1f103b71.woff) format("woff");
+    src: url(/static/fonts/NotoSans-Italic-subset.1a53ed99.woff2) format("woff2"), url(/static/fonts/NotoSans-Italic-subset.1f103b71.woff) format("woff");
     font-weight: 400;
     font-style: italic;
     font-display: swap
@@ -1604,7 +1604,7 @@
 
 @font-face {
     font-family: NotoSans;
-    src: url(./fonts/NotoSans-Regular-subset.5662c503.woff2) format("woff2"), url(./fonts/NotoSans-Regular-subset.c739c8e8.woff) format("woff");
+    src: url(/static/fonts/NotoSans-Regular-subset.5662c503.woff2) format("woff2"), url(/static/fonts/NotoSans-Regular-subset.c739c8e8.woff) format("woff");
     font-weight: 400;
     font-style: normal;
     font-display: swap
@@ -1612,7 +1612,7 @@
 
 @font-face {
     font-family: Ethnocentric;
-    src: url(./fonts/Ethnocentric.75fa17a5.woff2) format("woff2"), url(./fonts/Ethnocentric.1637823c.woff) format("woff");
+    src: url(/static/fonts/Ethnocentric.75fa17a5.woff2) format("woff2"), url(/static/fonts/Ethnocentric.1637823c.woff) format("woff");
     font-weight: 400;
     font-style: normal;
     font-display: swap
@@ -4595,7 +4595,7 @@ textarea.form-control {
 .was-validated .form-control:valid {
     border-color: #63b2e6;
     padding-right: calc(1.5em + .75rem) !important;
-    background-image: url("data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSc4JyBoZWlnaHQ9JzgnPjxwYXRoIGZpbGw9JyM2M2IyZTYnIGQ9J00yLjMgNi43M0wuNiA0LjUzYy0uNC0xLjA0LjQ2LTEuNCAxLjEtLjhsMS4xIDEuNCAzLjQtMy44Yy42LS42MyAxLjYtLjI3IDEuMi43bC00IDQuNmMtLjQzLjUtLjguNC0xLjEuMXonLz48L3N2Zz4=");
+    background-image: url(data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSc4JyBoZWlnaHQ9JzgnPjxwYXRoIGZpbGw9JyM2M2IyZTYnIGQ9J00yLjMgNi43M0wuNiA0LjUzYy0uNC0xLjA0LjQ2LTEuNCAxLjEtLjhsMS4xIDEuNCAzLjQtMy44Yy42LS42MyAxLjYtLjI3IDEuMi43bC00IDQuNmMtLjQzLjUtLjguNC0xLjEuMXonLz48L3N2Zz4=);
     background-repeat: no-repeat;
     background-position: right calc(.375em + .1875rem) center;
     background-size: calc(.75em + .375rem) calc(.75em + .375rem)
@@ -4718,7 +4718,7 @@ textarea.form-control.is-valid {
 .was-validated .form-control:invalid {
     border-color: #f05b60;
     padding-right: calc(1.5em + .75rem) !important;
-    background-image: url("data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMicgaGVpZ2h0PScxMicgZmlsbD0nbm9uZScgc3Ryb2tlPScjZjA1YjYwJz48Y2lyY2xlIGN4PSc2JyBjeT0nNicgcj0nNC41Jy8+PHBhdGggc3Ryb2tlLWxpbmVqb2luPSdyb3VuZCcgZD0nTTUuOCAzLjZoLjRMNiA2LjV6Jy8+PGNpcmNsZSBjeD0nNicgY3k9JzguMicgcj0nLjYnIGZpbGw9JyNmMDViNjAnIHN0cm9rZT0nbm9uZScvPjwvc3ZnPg==");
+    background-image: url(data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMicgaGVpZ2h0PScxMicgZmlsbD0nbm9uZScgc3Ryb2tlPScjZjA1YjYwJz48Y2lyY2xlIGN4PSc2JyBjeT0nNicgcj0nNC41Jy8+PHBhdGggc3Ryb2tlLWxpbmVqb2luPSdyb3VuZCcgZD0nTTUuOCAzLjZoLjRMNiA2LjV6Jy8+PGNpcmNsZSBjeD0nNicgY3k9JzguMicgcj0nLjYnIGZpbGw9JyNmMDViNjAnIHN0cm9rZT0nbm9uZScvPjwvc3ZnPg==);
     background-repeat: no-repeat;
     background-position: right calc(.375em + .1875rem) center;
     background-size: calc(.75em + .375rem) calc(.75em + .375rem)
@@ -16641,28 +16641,28 @@ input[type=color].form-control:disabled {
 .alert.alert-icon-lg-info:before,
 .alert.alert-icon-sm-info:before,
 .alert.alert-icon-xs-info:before {
-    background-image: url("./img/alert/icon-primary.b4a8a96f.png")
+    background-image: url(/static/img/alert/icon-primary.b4a8a96f.png)
 }
 
 .alert.alert-icon-danger:before,
 .alert.alert-icon-lg-danger:before,
 .alert.alert-icon-sm-danger:before,
 .alert.alert-icon-xs-danger:before {
-    background-image: url("./img/alert/icon-danger.8682d95a.png")
+    background-image: url(/static/img/alert/icon-danger.8682d95a.png)
 }
 
 .alert.alert-icon-lg-warning:before,
 .alert.alert-icon-sm-warning:before,
 .alert.alert-icon-warning:before,
 .alert.alert-icon-xs-warning:before {
-    background-image: url("./img/alert/icon-warning.2cf378d7.png")
+    background-image: url(/static/img/alert/icon-warning.2cf378d7.png)
 }
 
 .alert.alert-icon-lg-success:before,
 .alert.alert-icon-sm-success:before,
 .alert.alert-icon-success:before,
 .alert.alert-icon-xs-success:before {
-    background-image: url("./img/alert/icon-success.687722dd.png")
+    background-image: url(/static/img/alert/icon-success.687722dd.png)
 }
 
 .alert.alert-icon-danger,
@@ -17512,7 +17512,7 @@ svg.loss {
 }
 
 .game-table {
-    background: url(./img/img/table.777d0da9.png) no-repeat top;
+    background: url(/static/img/img/table.777d0da9.png) no-repeat top;
     width: 100%
 }
 
@@ -18607,190 +18607,190 @@ ul.stepper li a .label {
 }
 
 .bet-header {
-    background: url("../../static/img/dark/dice.6d65f4dd.png") 50% no-repeat
+    background: url(/static/img/dark/dice.6d65f4dd.png) 50% no-repeat
 }
 
 .boom-header,
 .slot-header {
-    background: url("../../static/img/dark/boom.f6699363.png") 50% no-repeat
+    background: url(/static/img/dark/boom.f6699363.png) 50% no-repeat
 }
 
 .caraycruz-header {
-    background: url("../../static/img/dark/caraycruz.712cc900.png") 50% no-repeat
+    background: url(/static/img/dark/caraycruz.712cc900.png) 50% no-repeat
 }
 
 .dice-header,
 .twist-header {
-    background: url("../../static/img/dark/dice.40aa2a06.png") 50% no-repeat
+    background: url(/static/img/dark/dice.40aa2a06.png) 50% no-repeat
 }
 
 .dicey-header {
-    background: url("../../static/img/dark/dicey.eb6e87f9.png") 50% no-repeat
+    background: url(/static/img/dark/dicey.eb6e87f9.png) 50% no-repeat
 }
 
 .multicolor-header {
-    background: url("../../static/img/dark/multicolor.d3c2b68c.png") 50% no-repeat
+    background: url(/static/img/dark/multicolor.d3c2b68c.png) 50% no-repeat
 }
 
 .roulette-header {
-    background: url("../../static/img/dark/roulette.a93a69c0.png") 50% no-repeat
+    background: url(/static/img/dark/roulette.a93a69c0.png) 50% no-repeat
 }
 
 .flashroulette-header {
-    background: url("../../static/img/dark/flashroulette.7b01f880.png") 50% no-repeat
+    background: url(/static/img/dark/flashroulette.7b01f880.png) 50% no-repeat
 }
 
 .blast-header {
-    background: url("../../static/img/dark/blast.bda1b6ef.png") 50% no-repeat
+    background: url(/static/img/dark/blast.bda1b6ef.png) 50% no-repeat
 }
 
 .fruitsler-header {
-    background: url("../../static/img/dark/fruitsler.abd6e8d8.png)" 50% no-repeat
+    background: url(/static/img/dark/fruitsler.abd6e8d8.png) 50% no-repeat
 }
 
 .sports-header {
-    background: url("../../static/img/dark/sports.ee8a1b32.png") 50% no-repeat
+    background: url(/static/img/dark/sports.ee8a1b32.png) 50% no-repeat
 }
 
 .bet-esports-header {
-    background: url("../../static/img/dark/esports.0a8bd932.png") 50% no-repeat
+    background: url(/static/img/dark/esports.0a8bd932.png) 50% no-repeat
 }
 
 .cryptothugs-header {
-    background: url("../../static/img/dark/cryptothugs.c04c01cf.png") 50% no-repeat
+    background: url(/static/img/dark/cryptothugs.c04c01cf.png) 50% no-repeat
 }
 
 .blackjack-header {
-    background: url("../../static/img/dark/blackjack.c4cf1102.png") 50% no-repeat
+    background: url(/static/img/dark/blackjack.c4cf1102.png) 50% no-repeat
 }
 
 .login-header,
 .register-header {
-    background: url("../../static/img/dark/logreg.8e9f7ff6.png") 50% no-repeat
+    background: url(/static/img/dark/logreg.8e9f7ff6.png) 50% no-repeat
 }
 
 .plinko-header {
-    background: url("../../static/img/dark/plinko.148102b2.png") 50% no-repeat
+    background: url(/static/img/dark/plinko.148102b2.png) 50% no-repeat
 }
 
 .videopoker-header {
-    background: url("./img/dark/videopoker.3686f07b.png") 50% no-repeat
+    background: url(/static/img/dark/videopoker.3686f07b.png) 50% no-repeat
 }
 
 .baccarat-header {
-    background: url("../../static/img/dark/baccarat.c755b239.png") 50% no-repeat
+    background: url(/static/img/dark/baccarat.c755b239.png) 50% no-repeat
 }
 
 .hilo-header {
-    background: url("../../static/img/dark/hilo.3efd8f2e.png") 50% no-repeat
+    background: url(/static/img/dark/hilo.3efd8f2e.png) 50% no-repeat
 }
 
 .mines-header {
-    background: url("../../static/img/dark/mines.7adf14ea.png") 50% no-repeat
+    background: url(/static/img/dark/mines.7adf14ea.png) 50% no-repeat
 }
 
 .chests-header {
-    background: url("../../static/img/dark/chests.8951c894.png") 50% no-repeat
+    background: url(/static/img/dark/chests.8951c894.png) 50% no-repeat
 }
 
 .keno-header {
-    background: url("../../static/img/dark/keno.1fe07830.png") 50% no-repeat
+    background: url(/static/img/dark/keno.1fe07830.png) 50% no-repeat
 }
 
 .ultimatepoker-header {
-    background: url("../../static/img/dark/ultimatepoker.4f24ba32.png") 50% no-repeat
+    background: url(/static/img/dark/ultimatepoker.4f24ba32.png) 50% no-repeat
 }
 
 .blast-icon {
-    background-image: url(./img/modal/icon_blast.e2d9c2ad.png)
+    background-image: url(/static/img/modal/icon_blast.e2d9c2ad.png)
 }
 
 .boom-icon {
-    background-image: url(./img/modal/icon_boom.8a476a17.png)
+    background-image: url(/static/img/modal/icon_boom.8a476a17.png)
 }
 
 .caraycruz-icon {
-    background-image: url(./img/modal/icon_caraycruz.b431f433.png)
+    background-image: url(/static/img/modal/icon_caraycruz.b431f433.png)
 }
 
 .dice-icon {
-    background-image: url(./img/modal/icon_dice.847c0c44.png)
+    background-image: url(/static/img/modal/icon_dice.847c0c44.png)
 }
 
 .dicey-icon {
-    background-image: url(./img/modal/icon_dicey.99bc9bc9.png)
+    background-image: url(/static/img/modal/icon_dicey.99bc9bc9.png)
 }
 
 .multicolor-icon {
-    background-image: url(./img/modal/icon_multicolor.59043a0c.png)
+    background-image: url(/static/img/modal/icon_multicolor.59043a0c.png)
 }
 
 .roulette-icon {
-    background-image: url(./img/modal/icon_roulette.1874fa05.png)
+    background-image: url(/static/img/modal/icon_roulette.1874fa05.png)
 }
 
 .flashroulette-icon {
-    background-image: url(./img/modal/icon_flashroulette.685320b8.png)
+    background-image: url(/static/img/modal/icon_flashroulette.685320b8.png)
 }
 
 .twist-icon {
-    background-image: url(./img/modal/icon_twist.56951d03.png)
+    background-image: url(/static/img/modal/icon_twist.56951d03.png)
 }
 
 .fruitsler-icon {
-    background-image: url(./img/modal/icon_fruitsler.c000f109.png)
+    background-image: url(/static/img/modal/icon_fruitsler.c000f109.png)
 }
 
 .sports-icon {
-    background-image: url(./img/modal/icon_sports.bf38f51a.png)
+    background-image: url(/static/img/modal/icon_sports.bf38f51a.png)
 }
 
 .esports-icon {
-    background-image: url(./img/modal/icon_esports.2ae65a61.png)
+    background-image: url(/static/img/modal/icon_esports.2ae65a61.png)
 }
 
 .cryptothugs-icon {
-    background-image: url(./img/modal/icon_cryptothugs.febf3a48.png)
+    background-image: url(/static/img/modal/icon_cryptothugs.febf3a48.png)
 }
 
 .blackjack-icon {
-    background-image: url(./img/modal/icon_blackjack.cd6c70e3.png)
+    background-image: url(/static/img/modal/icon_blackjack.cd6c70e3.png)
 }
 
 .logreg-icon {
-    background-image: url(./img/modal/icon_logreg.00cbd891.png)
+    background-image: url(/static/img/modal/icon_logreg.00cbd891.png)
 }
 
 .plinko-icon {
-    background-image: url(./img/modal/icon_plinko.8e1cc74d.png)
+    background-image: url(/static/img/modal/icon_plinko.8e1cc74d.png)
 }
 
 .chests-icon {
-    background-image: url(./img/modal/icon_chests.2ba7211e.png)
+    background-image: url(/static/img/modal/icon_chests.2ba7211e.png)
 }
 
 .keno-icon {
-    background-image: url(./img/modal/icon_keno.4023bd05.png)
+    background-image: url(/static/img/modal/icon_keno.4023bd05.png)
 }
 
 .baccarat-icon {
-    background-image: url(./img/modal/icon_baccarat.7380aa28.png)
+    background-image: url(/static/img/modal/icon_baccarat.7380aa28.png)
 }
 
 .hilo-icon {
-    background-image: url(./img/modal/icon_hilo.2b64b033.png)
+    background-image: url(/static/img/modal/icon_hilo.2b64b033.png)
 }
 
 .mines-icon {
-    background-image: url(./img/modal/icon_mines.48d5aaf5.png)
+    background-image: url(/static/img/modal/icon_mines.48d5aaf5.png)
 }
 
 .videopoker-icon {
-    background-image: url("../../static/img/modal/icon_videopoker.c225a7e6.png")
+    background-image: url(/static/img/modal/icon_videopoker.c225a7e6.png)
 }
 
 .ultimatepoker-icon {
-    background-image: url("../../static/img/modal/icon_ultimatepoker.0c2ca1b0.png")
+    background-image: url(/static/img/modal/icon_ultimatepoker.0c2ca1b0.png)
 }
 
 .icon-sports {
@@ -18960,39 +18960,39 @@ h3.vip-rank {
 }
 
 .vip-rank-icon.iron {
-    background-image: url(./img/ranks/iron.8745efcf.png)
+    background-image: url(/static/img/ranks/iron.8745efcf.png)
 }
 
 .vip-rank-icon.bronze {
-    background-image: url(./img/ranks/bronze.aefd5fd5.png)
+    background-image: url(/static/img/ranks/bronze.aefd5fd5.png)
 }
 
 .vip-rank-icon.silver {
-    background-image: url(./img/ranks/silver.08ef31df.png)
+    background-image: url(/static/img/ranks/silver.08ef31df.png)
 }
 
 .vip-rank-icon.gold {
-    background-image: url(./img/ranks/gold.daa9798f.png)
+    background-image: url(/static/img/ranks/gold.daa9798f.png)
 }
 
 .vip-rank-icon.platinum {
-    background-image: url(./img/ranks/platinum.5068b18f.png)
+    background-image: url(/static/img/ranks/platinum.5068b18f.png)
 }
 
 .vip-rank-icon.diamond {
-    background-image: url(./img/ranks/diamond.def1f40a.png)
+    background-image: url(/static/img/ranks/diamond.def1f40a.png)
 }
 
 .vip-rank-icon.black_diamond {
-    background-image: url(./img/ranks/black_diamond.25d482ee.png)
+    background-image: url(/static/img/ranks/black_diamond.25d482ee.png)
 }
 
 .vip-rank-icon.diamond_master {
-    background-image: url(./img/ranks/diamond_master.31c4f018.png)
+    background-image: url(/static/img/ranks/diamond_master.31c4f018.png)
 }
 
 .vip-rank-icon.diamond_legend {
-    background-image: url(./img/ranks/diamond_legend.1d8f0d88.png)
+    background-image: url(/static/img/ranks/diamond_legend.1d8f0d88.png)
 }
 
 .iron {
@@ -19098,39 +19098,39 @@ h3.vip-rank {
 }
 
 .vip-avatar-rank.iron {
-    background-image: url(./img/avatar/iron.b2e70d1a.png)
+    background-image: url(/static/img/avatar/iron.b2e70d1a.png)
 }
 
 .vip-avatar-rank.bronze {
-    background-image: url(./img/avatar/bronze.1ea1064c.png)
+    background-image: url(/static/img/avatar/bronze.1ea1064c.png)
 }
 
 .vip-avatar-rank.silver {
-    background-image: url(./img/avatar/silver.8b7ced03.png)
+    background-image: url(/static/img/avatar/silver.8b7ced03.png)
 }
 
 .vip-avatar-rank.gold {
-    background-image: url(./img/avatar/gold.4040a749.png)
+    background-image: url(/static/img/avatar/gold.4040a749.png)
 }
 
 .vip-avatar-rank.platinum {
-    background-image: url(./img/avatar/platinum.0ccacd22.png)
+    background-image: url(/static/img/avatar/platinum.0ccacd22.png)
 }
 
 .vip-avatar-rank.diamond {
-    background-image: url(./img/avatar/diamond.aac9e687.png)
+    background-image: url(/static/img/avatar/diamond.aac9e687.png)
 }
 
 .vip-avatar-rank.black_diamond {
-    background-image: url(./img/avatar/black_diamond.ca5d1ba2.png)
+    background-image: url(/static/img/avatar/black_diamond.ca5d1ba2.png)
 }
 
 .vip-avatar-rank.diamond_master {
-    background-image: url(./img/avatar/diamond_master.934c5372.png)
+    background-image: url(/static/img/avatar/diamond_master.934c5372.png)
 }
 
 .vip-avatar-rank.diamond_legend {
-    background-image: url(./img/avatar/diamond_legend.ae6a7317.png)
+    background-image: url(/static/img/avatar/diamond_legend.ae6a7317.png)
 }
 
 .pixi-container-wrapper {
@@ -19211,8 +19211,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=dota-2] {
     background-color: #ff404e;
-    -webkit-mask-image: url(./img/dota-2.6a1508e8.svg);
-    mask-image: url(./img/dota-2.6a1508e8.svg);
+    -webkit-mask-image: url(/static/img/dota-2.6a1508e8.svg);
+    mask-image: url(/static/img/dota-2.6a1508e8.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -19234,8 +19234,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=counter-strike] {
     background-color: #8ed841;
-    -webkit-mask-image: url(./img/counter-strike.c03bafc1.svg);
-    mask-image: url(./img/counter-strike.c03bafc1.svg);
+    -webkit-mask-image: url(/static/img/counter-strike.c03bafc1.svg);
+    mask-image: url(/static/img/counter-strike.c03bafc1.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -19257,8 +19257,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=league-of-legends] {
     background-color: #42e0e4;
-    -webkit-mask-image: url(./img/league-of-legends.3945f0b8.svg);
-    mask-image: url(./img/league-of-legends.3945f0b8.svg);
+    -webkit-mask-image: url(/static/img/league-of-legends.3945f0b8.svg);
+    mask-image: url(/static/img/league-of-legends.3945f0b8.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -19280,8 +19280,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=valorant] {
     background-color: #fe4a6d;
-    -webkit-mask-image: url(./img/valorant.8d92f04d.svg);
-    mask-image: url(./img/valorant.8d92f04d.svg);
+    -webkit-mask-image: url(/static/img/valorant.8d92f04d.svg);
+    mask-image: url(/static/img/valorant.8d92f04d.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -19303,8 +19303,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=overwatch] {
     background-color: #ff9500;
-    -webkit-mask-image: url(./img/overwatch.73a65882.svg);
-    mask-image: url(./img/overwatch.73a65882.svg);
+    -webkit-mask-image: url(/static/img/overwatch.73a65882.svg);
+    mask-image: url(/static/img/overwatch.73a65882.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -19326,8 +19326,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=king-of-glory] {
     background-color: #dc33ff;
-    -webkit-mask-image: url(./img/king-of-glory.3bc320b8.svg);
-    mask-image: url(./img/king-of-glory.3bc320b8.svg);
+    -webkit-mask-image: url(/static/img/king-of-glory.3bc320b8.svg);
+    mask-image: url(/static/img/king-of-glory.3bc320b8.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -19349,8 +19349,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=starcraft] {
     background-color: #009cff;
-    -webkit-mask-image: url(./img/starcraft.a54629f8.svg);
-    mask-image: url(./img/starcraft.a54629f8.svg);
+    -webkit-mask-image: url(/static/img/starcraft.a54629f8.svg);
+    mask-image: url(/static/img/starcraft.a54629f8.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -19372,8 +19372,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=fifa] {
     background-color: #f23030;
-    -webkit-mask-image: url(./img/fifa.b67698a3.svg);
-    mask-image: url(./img/fifa.b67698a3.svg);
+    -webkit-mask-image: url(/static/img/fifa.b67698a3.svg);
+    mask-image: url(/static/img/fifa.b67698a3.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -19395,8 +19395,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=call-of-duty] {
     background-color: #ffcf00;
-    -webkit-mask-image: url(./img/call-of-duty.712d6d46.svg);
-    mask-image: url(./img/call-of-duty.712d6d46.svg);
+    -webkit-mask-image: url(/static/img/call-of-duty.712d6d46.svg);
+    mask-image: url(/static/img/call-of-duty.712d6d46.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -19418,8 +19418,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=rainbow-six] {
     background-color: #aa80ff;
-    -webkit-mask-image: url(./img/rainbow-six.b36a1e45.svg);
-    mask-image: url(./img/rainbow-six.b36a1e45.svg);
+    -webkit-mask-image: url(/static/img/rainbow-six.b36a1e45.svg);
+    mask-image: url(/static/img/rainbow-six.b36a1e45.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -19441,8 +19441,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=rocket-league] {
     background-color: #64d3ff;
-    -webkit-mask-image: url(./img/rocket-league.8e938e93.svg);
-    mask-image: url(./img/rocket-league.8e938e93.svg);
+    -webkit-mask-image: url(/static/img/rocket-league.8e938e93.svg);
+    mask-image: url(/static/img/rocket-league.8e938e93.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -19464,8 +19464,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=nhl] {
     background-color: #a3b8cc;
-    -webkit-mask-image: url(./img/nhl.74721fb1.svg);
-    mask-image: url(./img/nhl.74721fb1.svg);
+    -webkit-mask-image: url(/static/img/nhl.74721fb1.svg);
+    mask-image: url(/static/img/nhl.74721fb1.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -19487,8 +19487,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=warcraft] {
     background-color: #00e673;
-    -webkit-mask-image: url(./img/warcraft.49e3d18d.svg);
-    mask-image: url(./img/warcraft.49e3d18d.svg);
+    -webkit-mask-image: url(/static/img/warcraft.49e3d18d.svg);
+    mask-image: url(/static/img/warcraft.49e3d18d.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -19510,8 +19510,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=starcraft-2] {
     background-color: #009cff;
-    -webkit-mask-image: url(./img/starcraft-2.3c7cdb60.svg);
-    mask-image: url(./img/starcraft-2.3c7cdb60.svg);
+    -webkit-mask-image: url(/static/img/starcraft-2.3c7cdb60.svg);
+    mask-image: url(/static/img/starcraft-2.3c7cdb60.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -19533,8 +19533,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=fortnite] {
     background-color: #8066ff;
-    -webkit-mask-image: url(./img/fortnite.5a8ec8db.svg);
-    mask-image: url(./img/fortnite.5a8ec8db.svg);
+    -webkit-mask-image: url(/static/img/fortnite.5a8ec8db.svg);
+    mask-image: url(/static/img/fortnite.5a8ec8db.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -19556,8 +19556,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=pubg] {
     background-color: #f26d00;
-    -webkit-mask-image: url(./img/pubg.9960d369.svg);
-    mask-image: url(./img/pubg.9960d369.svg);
+    -webkit-mask-image: url(/static/img/pubg.9960d369.svg);
+    mask-image: url(/static/img/pubg.9960d369.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -19579,8 +19579,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=nba2k] {
     background-color: #4d88ff;
-    -webkit-mask-image: url(./img/nba2k.89551a71.svg);
-    mask-image: url(./img/nba2k.89551a71.svg);
+    -webkit-mask-image: url(/static/img/nba2k.89551a71.svg);
+    mask-image: url(/static/img/nba2k.89551a71.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -19602,8 +19602,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=hearthstone] {
     background-color: #f6c;
-    -webkit-mask-image: url(./img/hearthstone.864fe9b6.svg);
-    mask-image: url(./img/hearthstone.864fe9b6.svg);
+    -webkit-mask-image: url(/static/img/hearthstone.864fe9b6.svg);
+    mask-image: url(/static/img/hearthstone.864fe9b6.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -19638,8 +19638,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=age-of-empires] {
     background-color: #cc8f15;
-    -webkit-mask-image: url(./img/age-of-empires.40d3f20d.svg);
-    mask-image: url(./img/age-of-empires.40d3f20d.svg);
+    -webkit-mask-image: url(/static/img/age-of-empires.40d3f20d.svg);
+    mask-image: url(/static/img/age-of-empires.40d3f20d.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -19661,8 +19661,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=arena-of-valor] {
     background-color: #00b254;
-    -webkit-mask-image: url(./img/arena-of-valor.ecbf03a0.svg);
-    mask-image: url(./img/arena-of-valor.ecbf03a0.svg);
+    -webkit-mask-image: url(/static/img/arena-of-valor.ecbf03a0.svg);
+    mask-image: url(/static/img/arena-of-valor.ecbf03a0.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -19684,8 +19684,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=halo] {
     background-color: #0085bf;
-    -webkit-mask-image: url(./img/halo.0ccf3363.svg);
-    mask-image: url(./img/halo.0ccf3363.svg);
+    -webkit-mask-image: url(/static/img/halo.0ccf3363.svg);
+    mask-image: url(/static/img/halo.0ccf3363.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -19707,8 +19707,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=mobile-legends] {
     background-color: #6e65c4;
-    -webkit-mask-image: url(./img/mobile-legends.8ba76488.svg);
-    mask-image: url(./img/mobile-legends.8ba76488.svg);
+    -webkit-mask-image: url(/static/img/mobile-legends.8ba76488.svg);
+    mask-image: url(/static/img/mobile-legends.8ba76488.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -19730,8 +19730,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=wild-rift] {
     background-color: #0099b2;
-    -webkit-mask-image: url(./img/wild-rift.bcf874b8.svg);
-    mask-image: url(./img/wild-rift.bcf874b8.svg);
+    -webkit-mask-image: url(/static/img/wild-rift.bcf874b8.svg);
+    mask-image: url(/static/img/wild-rift.bcf874b8.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -20147,196 +20147,196 @@ svg.team-icon-small {
 }
 
 .esports-header[data-sport-background=dota-2] {
-    background-image: url(./img/headers/dota-2.40affff7.png)
+    background-image: url(/static/img/headers/dota-2.40affff7.png)
 }
 
 .esports-header[data-sport-background=counter-strike] {
-    background-image: url(./img/headers/counter-strike.82e37a97.png)
+    background-image: url(/static/img/headers/counter-strike.82e37a97.png)
 }
 
 .esports-header[data-sport-background=league-of-legends] {
-    background-image: url(./img/headers/league-of-legends.8c2c9fa7.png)
+    background-image: url(/static/img/headers/league-of-legends.8c2c9fa7.png)
 }
 
 .esports-header[data-sport-background=valorant] {
-    background-image: url(./img/headers/valorant.475e1476.png)
+    background-image: url(/static/img/headers/valorant.475e1476.png)
 }
 
 .esports-header[data-sport-background=overwatch] {
-    background-image: url(./img/headers/overwatch.3c9051de.png)
+    background-image: url(/static/img/headers/overwatch.3c9051de.png)
 }
 
 .esports-header[data-sport-background=king-of-glory] {
-    background-image: url(./img/headers/king-of-glory.ed7a85ab.png)
+    background-image: url(/static/img/headers/king-of-glory.ed7a85ab.png)
 }
 
 .esports-header[data-sport-background=starcraft] {
-    background-image: url(./img/headers/starcraft.016bffbc.png)
+    background-image: url(/static/img/headers/starcraft.016bffbc.png)
 }
 
 .esports-header[data-sport-background=fifa] {
-    background-image: url(./img/headers/fifa.1ed3289b.png)
+    background-image: url(/static/img/headers/fifa.1ed3289b.png)
 }
 
 .esports-header[data-sport-background=call-of-duty] {
-    background-image: url(./img/headers/call-of-duty.ce819550.png)
+    background-image: url(/static/img/headers/call-of-duty.ce819550.png)
 }
 
 .esports-header[data-sport-background=rainbow-six] {
-    background-image: url(./img/headers/rainbow-six.51c5c79e.png)
+    background-image: url(/static/img/headers/rainbow-six.51c5c79e.png)
 }
 
 .esports-header[data-sport-background=rocket-league] {
-    background-image: url(./img/headers/rocket-league.2c3fa8fd.png)
+    background-image: url(/static/img/headers/rocket-league.2c3fa8fd.png)
 }
 
 .esports-header[data-sport-background=nhl] {
-    background-image: url(./img/headers/nhl.5cba3795.png)
+    background-image: url(/static/img/headers/nhl.5cba3795.png)
 }
 
 .esports-header[data-sport-background=warcraft] {
-    background-image: url(./img/headers/warcraft.dadcf7bd.png)
+    background-image: url(/static/img/headers/warcraft.dadcf7bd.png)
 }
 
 .esports-header[data-sport-background=starcraft-2] {
-    background-image: url(./img/headers/starcraft-2.016bffbc.png)
+    background-image: url(/static/img/headers/starcraft-2.016bffbc.png)
 }
 
 .esports-header[data-sport-background=fortnite] {
-    background-image: url(./img/headers/fortnite.af5e1db9.png)
+    background-image: url(/static/img/headers/fortnite.af5e1db9.png)
 }
 
 .esports-header[data-sport-background=pubg] {
-    background-image: url(./img/headers/pubg.4a4a06c9.png)
+    background-image: url(/static/img/headers/pubg.4a4a06c9.png)
 }
 
 .esports-header[data-sport-background=nba2k] {
-    background-image: url(./img/headers/nba2k.ff2f7fab.png)
+    background-image: url(/static/img/headers/nba2k.ff2f7fab.png)
 }
 
 .esports-header[data-sport-background=hearthstone] {
-    background-image: url(./img/headers/hearthstone.9e22a969.png)
+    background-image: url(/static/img/headers/hearthstone.9e22a969.png)
 }
 
 .esports-header[data-sport-background=esoccer] {
-    background-image: url(./img/headers/esoccer.1ed3289b.png)
+    background-image: url(/static/img/headers/esoccer.1ed3289b.png)
 }
 
 .esports-header[data-sport-background=age-of-empires] {
-    background-image: url(./img/headers/age-of-empires.df6d2e4f.png)
+    background-image: url(/static/img/headers/age-of-empires.df6d2e4f.png)
 }
 
 .esports-header[data-sport-background=arena-of-valor] {
-    background-image: url(./img/headers/arena-of-valor.9ddeec74.png)
+    background-image: url(/static/img/headers/arena-of-valor.9ddeec74.png)
 }
 
 .esports-header[data-sport-background=halo] {
-    background-image: url(./img/headers/halo.ca7ea959.png)
+    background-image: url(/static/img/headers/halo.ca7ea959.png)
 }
 
 .esports-header[data-sport-background=mobile-legends] {
-    background-image: url(./img/headers/mobile-legends.b9bbf30d.png)
+    background-image: url(/static/img/headers/mobile-legends.b9bbf30d.png)
 }
 
 .esports-header[data-sport-background=wild-rift] {
-    background-image: url(./img/headers/wild-rift.d4dd7d81.png)
+    background-image: url(/static/img/headers/wild-rift.d4dd7d81.png)
 }
 
 @media(max-width:575.98px) {
     .esports-header[data-sport-background=dota-2] {
-        background-image: url(./img/mobile/dota-2.5c884728.png)
+        background-image: url(/static/img/mobile/dota-2.5c884728.png)
     }
 
     .esports-header[data-sport-background=counter-strike] {
-        background-image: url(./img/mobile/counter-strike.4b3fa0bd.png)
+        background-image: url(/static/img/mobile/counter-strike.4b3fa0bd.png)
     }
 
     .esports-header[data-sport-background=league-of-legends] {
-        background-image: url(./img/mobile/league-of-legends.dd7891b3.png)
+        background-image: url(/static/img/mobile/league-of-legends.dd7891b3.png)
     }
 
     .esports-header[data-sport-background=valorant] {
-        background-image: url(./img/mobile/valorant.22e4f724.png)
+        background-image: url(/static/img/mobile/valorant.22e4f724.png)
     }
 
     .esports-header[data-sport-background=overwatch] {
-        background-image: url(./img/mobile/overwatch.82a1deb1.png)
+        background-image: url(/static/img/mobile/overwatch.82a1deb1.png)
     }
 
     .esports-header[data-sport-background=king-of-glory] {
-        background-image: url(./img/mobile/king-of-glory.8d3d3f34.png)
+        background-image: url(/static/img/mobile/king-of-glory.8d3d3f34.png)
     }
 
     .esports-header[data-sport-background=starcraft] {
-        background-image: url(./img/mobile/starcraft.221b0281.png)
+        background-image: url(/static/img/mobile/starcraft.221b0281.png)
     }
 
     .esports-header[data-sport-background=fifa] {
-        background-image: url(./img/mobile/fifa.97b7e0d4.png)
+        background-image: url(/static/img/mobile/fifa.97b7e0d4.png)
     }
 
     .esports-header[data-sport-background=call-of-duty] {
-        background-image: url(./img/mobile/call-of-duty.c6338de6.png)
+        background-image: url(/static/img/mobile/call-of-duty.c6338de6.png)
     }
 
     .esports-header[data-sport-background=rainbow-six] {
-        background-image: url(./img/mobile/rainbow-six.f6f1cf6d.png)
+        background-image: url(/static/img/mobile/rainbow-six.f6f1cf6d.png)
     }
 
     .esports-header[data-sport-background=rocket-league] {
-        background-image: url(./img/mobile/rocket-league.46f57612.png)
+        background-image: url(/static/img/mobile/rocket-league.46f57612.png)
     }
 
     .esports-header[data-sport-background=nhl] {
-        background-image: url(./img/mobile/nhl.260434d6.png)
+        background-image: url(/static/img/mobile/nhl.260434d6.png)
     }
 
     .esports-header[data-sport-background=warcraft] {
-        background-image: url(./img/mobile/warcraft.71efafdf.png)
+        background-image: url(/static/img/mobile/warcraft.71efafdf.png)
     }
 
     .esports-header[data-sport-background=starcraft-2] {
-        background-image: url(./img/mobile/starcraft-2.023b3ea5.png)
+        background-image: url(/static/img/mobile/starcraft-2.023b3ea5.png)
     }
 
     .esports-header[data-sport-background=fortnite] {
-        background-image: url(./img/mobile/fortnite.2967e24e.png)
+        background-image: url(/static/img/mobile/fortnite.2967e24e.png)
     }
 
     .esports-header[data-sport-background=pubg] {
-        background-image: url(./img/mobile/pubg.274cb8de.png)
+        background-image: url(/static/img/mobile/pubg.274cb8de.png)
     }
 
     .esports-header[data-sport-background=nba2k] {
-        background-image: url(./img/mobile/nba2k.89e9f313.png)
+        background-image: url(/static/img/mobile/nba2k.89e9f313.png)
     }
 
     .esports-header[data-sport-background=hearthstone] {
-        background-image: url(./img/mobile/hearthstone.a882b4e7.png)
+        background-image: url(/static/img/mobile/hearthstone.a882b4e7.png)
     }
 
     .esports-header[data-sport-background=esoccer] {
-        background-image: url(./img/mobile/esoccer.97b7e0d4.png)
+        background-image: url(/static/img/mobile/esoccer.97b7e0d4.png)
     }
 
     .esports-header[data-sport-background=age-of-empires] {
-        background-image: url(./img/mobile/age-of-empires.c05f5e5e.png)
+        background-image: url(/static/img/mobile/age-of-empires.c05f5e5e.png)
     }
 
     .esports-header[data-sport-background=arena-of-valor] {
-        background-image: url(./img/mobile/arena-of-valor.f588ceee.png)
+        background-image: url(/static/img/mobile/arena-of-valor.f588ceee.png)
     }
 
     .esports-header[data-sport-background=halo] {
-        background-image: url(./img/mobile/halo.98485137.png)
+        background-image: url(/static/img/mobile/halo.98485137.png)
     }
 
     .esports-header[data-sport-background=mobile-legends] {
-        background-image: url(./img/mobile/mobile-legends.ee6d2502.png)
+        background-image: url(/static/img/mobile/mobile-legends.ee6d2502.png)
     }
 
     .esports-header[data-sport-background=wild-rift] {
-        background-image: url(./img/mobile/wild-rift.c3015cd4.png)
+        background-image: url(/static/img/mobile/wild-rift.c3015cd4.png)
     }
 }
 
@@ -20494,8 +20494,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=american-football] {
     background-color: #f23030;
-    -webkit-mask-image: url(./img/american-football.df43ad90.svg);
-    mask-image: url(./img/american-football.df43ad90.svg);
+    -webkit-mask-image: url(/static/img/american-football.df43ad90.svg);
+    mask-image: url(/static/img/american-football.df43ad90.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -20517,8 +20517,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=archery] {
     background-color: #f23030;
-    -webkit-mask-image: url(./img/archery.b077aecb.svg);
-    mask-image: url(./img/archery.b077aecb.svg);
+    -webkit-mask-image: url(/static/img/archery.b077aecb.svg);
+    mask-image: url(/static/img/archery.b077aecb.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -20540,8 +20540,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=athletics] {
     background-color: #42e0e4;
-    -webkit-mask-image: url(./img/athletics.ef206ad5.svg);
-    mask-image: url(./img/athletics.ef206ad5.svg);
+    -webkit-mask-image: url(/static/img/athletics.ef206ad5.svg);
+    mask-image: url(/static/img/athletics.ef206ad5.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -20563,8 +20563,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=aussie-rules] {
     background-color: #4d88ff;
-    -webkit-mask-image: url(./img/aussie-rules.e3e316ac.svg);
-    mask-image: url(./img/aussie-rules.e3e316ac.svg);
+    -webkit-mask-image: url(/static/img/aussie-rules.e3e316ac.svg);
+    mask-image: url(/static/img/aussie-rules.e3e316ac.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -20586,8 +20586,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=badminton] {
     background-color: #08e01f;
-    -webkit-mask-image: url(./img/badminton.29195c13.svg);
-    mask-image: url(./img/badminton.29195c13.svg);
+    -webkit-mask-image: url(/static/img/badminton.29195c13.svg);
+    mask-image: url(/static/img/badminton.29195c13.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -20609,8 +20609,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=baseball] {
     background-color: #00e673;
-    -webkit-mask-image: url(./img/baseball.94c3674c.svg);
-    mask-image: url(./img/baseball.94c3674c.svg);
+    -webkit-mask-image: url(/static/img/baseball.94c3674c.svg);
+    mask-image: url(/static/img/baseball.94c3674c.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -20632,8 +20632,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=basketball-3x3] {
     background-color: #f23030;
-    -webkit-mask-image: url(./img/basketball-3x3.137e981c.svg);
-    mask-image: url(./img/basketball-3x3.137e981c.svg);
+    -webkit-mask-image: url(/static/img/basketball-3x3.137e981c.svg);
+    mask-image: url(/static/img/basketball-3x3.137e981c.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -20655,8 +20655,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=basketball] {
     background-color: #ff9500;
-    -webkit-mask-image: url(./img/basketball.87260212.svg);
-    mask-image: url(./img/basketball.87260212.svg);
+    -webkit-mask-image: url(/static/img/basketball.87260212.svg);
+    mask-image: url(/static/img/basketball.87260212.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -20678,8 +20678,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=beach-volleyball] {
     background-color: #fe4a6d;
-    -webkit-mask-image: url(./img/beach-volleyball.53bebfac.svg);
-    mask-image: url(./img/beach-volleyball.53bebfac.svg);
+    -webkit-mask-image: url(/static/img/beach-volleyball.53bebfac.svg);
+    mask-image: url(/static/img/beach-volleyball.53bebfac.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -20701,8 +20701,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=bowls] {
     background-color: #ffcf00;
-    -webkit-mask-image: url(./img/bowls.defe95dc.svg);
-    mask-image: url(./img/bowls.defe95dc.svg);
+    -webkit-mask-image: url(/static/img/bowls.defe95dc.svg);
+    mask-image: url(/static/img/bowls.defe95dc.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -20724,8 +20724,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=boxing] {
     background-color: #aa80ff;
-    -webkit-mask-image: url(./img/boxing.911e2c3e.svg);
-    mask-image: url(./img/boxing.911e2c3e.svg);
+    -webkit-mask-image: url(/static/img/boxing.911e2c3e.svg);
+    mask-image: url(/static/img/boxing.911e2c3e.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -20747,8 +20747,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=canoeing] {
     background-color: #64d3ff;
-    -webkit-mask-image: url(./img/canoeing.bc543a24.svg);
-    mask-image: url(./img/canoeing.bc543a24.svg);
+    -webkit-mask-image: url(/static/img/canoeing.bc543a24.svg);
+    mask-image: url(/static/img/canoeing.bc543a24.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -20770,8 +20770,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=cricket] {
     background-color: #4d88ff;
-    -webkit-mask-image: url(./img/cricket.909e70dc.svg);
-    mask-image: url(./img/cricket.909e70dc.svg);
+    -webkit-mask-image: url(/static/img/cricket.909e70dc.svg);
+    mask-image: url(/static/img/cricket.909e70dc.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -20793,8 +20793,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=cycling] {
     background-color: #42e0e4;
-    -webkit-mask-image: url(./img/cycling.8f4dffa5.svg);
-    mask-image: url(./img/cycling.8f4dffa5.svg);
+    -webkit-mask-image: url(/static/img/cycling.8f4dffa5.svg);
+    mask-image: url(/static/img/cycling.8f4dffa5.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -20816,8 +20816,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=darts] {
     background-color: #fe4a6d;
-    -webkit-mask-image: url(./img/darts.40cbecef.svg);
-    mask-image: url(./img/darts.40cbecef.svg);
+    -webkit-mask-image: url(/static/img/darts.40cbecef.svg);
+    mask-image: url(/static/img/darts.40cbecef.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -20839,8 +20839,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=diving] {
     background-color: #00e673;
-    -webkit-mask-image: url(./img/diving.efb644f3.svg);
-    mask-image: url(./img/diving.efb644f3.svg);
+    -webkit-mask-image: url(/static/img/diving.efb644f3.svg);
+    mask-image: url(/static/img/diving.efb644f3.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -20862,8 +20862,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=esoccer] {
     background-color: #fec310;
-    -webkit-mask-image: url(./img/esoccer.365f0290.svg);
-    mask-image: url(./img/esoccer.365f0290.svg);
+    -webkit-mask-image: url(/static/img/esoccer.365f0290.svg);
+    mask-image: url(/static/img/esoccer.365f0290.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -20885,8 +20885,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=equestrian] {
     background-color: #8066ff;
-    -webkit-mask-image: url(./img/equestrian.80f156c7.svg);
-    mask-image: url(./img/equestrian.80f156c7.svg);
+    -webkit-mask-image: url(/static/img/equestrian.80f156c7.svg);
+    mask-image: url(/static/img/equestrian.80f156c7.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -20908,8 +20908,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=fencing] {
     background-color: #8ed841;
-    -webkit-mask-image: url(./img/fencing.1fa431a1.svg);
-    mask-image: url(./img/fencing.1fa431a1.svg);
+    -webkit-mask-image: url(/static/img/fencing.1fa431a1.svg);
+    mask-image: url(/static/img/fencing.1fa431a1.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -20931,8 +20931,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=field-hockey] {
     background-color: #f6c;
-    -webkit-mask-image: url(./img/field-hockey.d6c81f58.svg);
-    mask-image: url(./img/field-hockey.d6c81f58.svg);
+    -webkit-mask-image: url(/static/img/field-hockey.d6c81f58.svg);
+    mask-image: url(/static/img/field-hockey.d6c81f58.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -20954,8 +20954,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=floorball] {
     background-color: #dc33ff;
-    -webkit-mask-image: url(./img/floorball.18df315d.svg);
-    mask-image: url(./img/floorball.18df315d.svg);
+    -webkit-mask-image: url(/static/img/floorball.18df315d.svg);
+    mask-image: url(/static/img/floorball.18df315d.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -20977,8 +20977,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=futsal] {
     background-color: #fe4a6d;
-    -webkit-mask-image: url(./img/futsal.93245e39.svg);
-    mask-image: url(./img/futsal.93245e39.svg);
+    -webkit-mask-image: url(/static/img/futsal.93245e39.svg);
+    mask-image: url(/static/img/futsal.93245e39.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -21000,8 +21000,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=gaelic-football] {
     background-color: #f6c;
-    -webkit-mask-image: url(./img/gaelic-football.7987271d.svg);
-    mask-image: url(./img/gaelic-football.7987271d.svg);
+    -webkit-mask-image: url(/static/img/gaelic-football.7987271d.svg);
+    mask-image: url(/static/img/gaelic-football.7987271d.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -21023,8 +21023,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=gaelic-hurling] {
     background-color: #aa80ff;
-    -webkit-mask-image: url(./img/gaelic-hurling.08959359.svg);
-    mask-image: url(./img/gaelic-hurling.08959359.svg);
+    -webkit-mask-image: url(/static/img/gaelic-hurling.08959359.svg);
+    mask-image: url(/static/img/gaelic-hurling.08959359.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -21046,8 +21046,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=golf] {
     background-color: #00e673;
-    -webkit-mask-image: url(./img/golf.92311785.svg);
-    mask-image: url(./img/golf.92311785.svg);
+    -webkit-mask-image: url(/static/img/golf.92311785.svg);
+    mask-image: url(/static/img/golf.92311785.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -21069,8 +21069,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=handball] {
     background-color: #ff9500;
-    -webkit-mask-image: url(./img/handball.afbfcee6.svg);
-    mask-image: url(./img/handball.afbfcee6.svg);
+    -webkit-mask-image: url(/static/img/handball.afbfcee6.svg);
+    mask-image: url(/static/img/handball.afbfcee6.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -21092,8 +21092,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=ice-hockey] {
     background-color: #ffcf00;
-    -webkit-mask-image: url(./img/ice-hockey.2e799f93.svg);
-    mask-image: url(./img/ice-hockey.2e799f93.svg);
+    -webkit-mask-image: url(/static/img/ice-hockey.2e799f93.svg);
+    mask-image: url(/static/img/ice-hockey.2e799f93.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -21115,8 +21115,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=marathon-swimming] {
     background-color: #64d3ff;
-    -webkit-mask-image: url(./img/marathon-swimming.2faa91a0.svg);
-    mask-image: url(./img/marathon-swimming.2faa91a0.svg);
+    -webkit-mask-image: url(/static/img/marathon-swimming.2faa91a0.svg);
+    mask-image: url(/static/img/marathon-swimming.2faa91a0.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -21138,8 +21138,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=mma] {
     background-color: #f23030;
-    -webkit-mask-image: url(./img/mma.2e00f8d1.svg);
-    mask-image: url(./img/mma.2e00f8d1.svg);
+    -webkit-mask-image: url(/static/img/mma.2e00f8d1.svg);
+    mask-image: url(/static/img/mma.2e00f8d1.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -21161,8 +21161,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=modern-pentathlon] {
     background-color: #4d88ff;
-    -webkit-mask-image: url(./img/modern-pentathlon.b2cce90f.svg);
-    mask-image: url(./img/modern-pentathlon.b2cce90f.svg);
+    -webkit-mask-image: url(/static/img/modern-pentathlon.b2cce90f.svg);
+    mask-image: url(/static/img/modern-pentathlon.b2cce90f.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -21184,8 +21184,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=motorsport] {
     background-color: #f23030;
-    -webkit-mask-image: url(./img/motorsport.d50666d3.svg);
-    mask-image: url(./img/motorsport.d50666d3.svg);
+    -webkit-mask-image: url(/static/img/motorsport.d50666d3.svg);
+    mask-image: url(/static/img/motorsport.d50666d3.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -21207,8 +21207,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=pesapallo] {
     background-color: #aa80ff;
-    -webkit-mask-image: url(./img/pesapallo.0773adc7.svg);
-    mask-image: url(./img/pesapallo.0773adc7.svg);
+    -webkit-mask-image: url(/static/img/pesapallo.0773adc7.svg);
+    mask-image: url(/static/img/pesapallo.0773adc7.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -21230,8 +21230,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=rowing] {
     background-color: #8066ff;
-    -webkit-mask-image: url(./img/rowing.b043ef0c.svg);
-    mask-image: url(./img/rowing.b043ef0c.svg);
+    -webkit-mask-image: url(/static/img/rowing.b043ef0c.svg);
+    mask-image: url(/static/img/rowing.b043ef0c.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -21253,8 +21253,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=rugby] {
     background-color: #8ed841;
-    -webkit-mask-image: url(./img/rugby.a03f0c21.svg);
-    mask-image: url(./img/rugby.a03f0c21.svg);
+    -webkit-mask-image: url(/static/img/rugby.a03f0c21.svg);
+    mask-image: url(/static/img/rugby.a03f0c21.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -21276,8 +21276,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=sailing] {
     background-color: #f26d00;
-    -webkit-mask-image: url(./img/sailing.19a4d2f6.svg);
-    mask-image: url(./img/sailing.19a4d2f6.svg);
+    -webkit-mask-image: url(/static/img/sailing.19a4d2f6.svg);
+    mask-image: url(/static/img/sailing.19a4d2f6.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -21299,8 +21299,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=skateboarding] {
     background-color: #ffcf00;
-    -webkit-mask-image: url(./img/skateboarding.e2eadd05.svg);
-    mask-image: url(./img/skateboarding.e2eadd05.svg);
+    -webkit-mask-image: url(/static/img/skateboarding.e2eadd05.svg);
+    mask-image: url(/static/img/skateboarding.e2eadd05.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -21322,8 +21322,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=snooker] {
     background-color: #4d88ff;
-    -webkit-mask-image: url(./img/snooker.da2f92fd.svg);
-    mask-image: url(./img/snooker.da2f92fd.svg);
+    -webkit-mask-image: url(/static/img/snooker.da2f92fd.svg);
+    mask-image: url(/static/img/snooker.da2f92fd.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -21345,8 +21345,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=soccer] {
     background-color: #00e673;
-    -webkit-mask-image: url(./img/soccer.718c31c8.svg);
-    mask-image: url(./img/soccer.718c31c8.svg);
+    -webkit-mask-image: url(/static/img/soccer.718c31c8.svg);
+    mask-image: url(/static/img/soccer.718c31c8.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -21368,8 +21368,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=specials] {
     background-color: #ffcf00;
-    -webkit-mask-image: url(./img/specials.7879b1c0.svg);
-    mask-image: url(./img/specials.7879b1c0.svg);
+    -webkit-mask-image: url(/static/img/specials.7879b1c0.svg);
+    mask-image: url(/static/img/specials.7879b1c0.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -21391,8 +21391,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=squash] {
     background-color: #009cff;
-    -webkit-mask-image: url(./img/squash.deb158fa.svg);
-    mask-image: url(./img/squash.deb158fa.svg);
+    -webkit-mask-image: url(/static/img/squash.deb158fa.svg);
+    mask-image: url(/static/img/squash.deb158fa.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -21414,8 +21414,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=surfing] {
     background-color: #f26d00;
-    -webkit-mask-image: url(./img/surfing.ecad80e8.svg);
-    mask-image: url(./img/surfing.ecad80e8.svg);
+    -webkit-mask-image: url(/static/img/surfing.ecad80e8.svg);
+    mask-image: url(/static/img/surfing.ecad80e8.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -21437,8 +21437,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=swimming] {
     background-color: #00e673;
-    -webkit-mask-image: url(./img/swimming.6f3a83a2.svg);
-    mask-image: url(./img/swimming.6f3a83a2.svg);
+    -webkit-mask-image: url(/static/img/swimming.6f3a83a2.svg);
+    mask-image: url(/static/img/swimming.6f3a83a2.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -21460,8 +21460,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=table-tennis] {
     background-color: #a3b8cc;
-    -webkit-mask-image: url(./img/table-tennis.79ed5e19.svg);
-    mask-image: url(./img/table-tennis.79ed5e19.svg);
+    -webkit-mask-image: url(/static/img/table-tennis.79ed5e19.svg);
+    mask-image: url(/static/img/table-tennis.79ed5e19.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -21483,8 +21483,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=taekwondo] {
     background-color: #a3b8cc;
-    -webkit-mask-image: url(./img/taekwondo.b8521b4d.svg);
-    mask-image: url(./img/taekwondo.b8521b4d.svg);
+    -webkit-mask-image: url(/static/img/taekwondo.b8521b4d.svg);
+    mask-image: url(/static/img/taekwondo.b8521b4d.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -21506,8 +21506,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=tennis] {
     background-color: #fdfa04;
-    -webkit-mask-image: url(./img/tennis.36c5961f.svg);
-    mask-image: url(./img/tennis.36c5961f.svg);
+    -webkit-mask-image: url(/static/img/tennis.36c5961f.svg);
+    mask-image: url(/static/img/tennis.36c5961f.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -21529,8 +21529,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=triathlon] {
     background-color: #ffcf00;
-    -webkit-mask-image: url(./img/triathlon.b9255ed1.svg);
-    mask-image: url(./img/triathlon.b9255ed1.svg);
+    -webkit-mask-image: url(/static/img/triathlon.b9255ed1.svg);
+    mask-image: url(/static/img/triathlon.b9255ed1.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -21552,8 +21552,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=volleyball] {
     background-color: #009cff;
-    -webkit-mask-image: url(./img/volleyball.43799b07.svg);
-    mask-image: url(./img/volleyball.43799b07.svg);
+    -webkit-mask-image: url(/static/img/volleyball.43799b07.svg);
+    mask-image: url(/static/img/volleyball.43799b07.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -21575,8 +21575,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=waterpolo] {
     background-color: #00d5ff;
-    -webkit-mask-image: url(./img/waterpolo.bf411461.svg);
-    mask-image: url(./img/waterpolo.bf411461.svg);
+    -webkit-mask-image: url(/static/img/waterpolo.bf411461.svg);
+    mask-image: url(/static/img/waterpolo.bf411461.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -21598,8 +21598,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=weightlifting] {
     background-color: #dc33ff;
-    -webkit-mask-image: url(./img/weightlifting.ff5b28ac.svg);
-    mask-image: url(./img/weightlifting.ff5b28ac.svg);
+    -webkit-mask-image: url(/static/img/weightlifting.ff5b28ac.svg);
+    mask-image: url(/static/img/weightlifting.ff5b28ac.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -21621,8 +21621,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=wintersport] {
     background-color: #42e0e4;
-    -webkit-mask-image: url(./img/wintersport.483a4d66.svg);
-    mask-image: url(./img/wintersport.483a4d66.svg);
+    -webkit-mask-image: url(/static/img/wintersport.483a4d66.svg);
+    mask-image: url(/static/img/wintersport.483a4d66.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -21644,8 +21644,8 @@ svg.team-icon-small {
 
 .bet-icon[data-esport-icon=wrestling] {
     background-color: #dc33ff;
-    -webkit-mask-image: url(./img/wrestling.2dbf59fa.svg);
-    mask-image: url(./img/wrestling.2dbf59fa.svg);
+    -webkit-mask-image: url(/static/img/wrestling.2dbf59fa.svg);
+    mask-image: url(/static/img/wrestling.2dbf59fa.svg);
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
@@ -22113,7 +22113,7 @@ div#fasttrack-crm .close-btn:before {
 }
 
 .fo-res-ga {
-    background: url(./img/dark/begambleaware.8549ede7.png);
+    background: url(/static/img/dark/begambleaware.8549ede7.png);
     height: 20px;
     margin: 9px 10px 9px 0;
     width: 198px
@@ -22126,7 +22126,7 @@ div#fasttrack-crm .close-btn:before {
 }
 
 .fo-res-gt {
-    background: url(./img/dark/gt.899951f7.png);
+    background: url(/static/img/dark/gt.899951f7.png);
     height: 40px;
     width: 49px;
     margin: 0 10px
@@ -22146,7 +22146,7 @@ a.fo-res-link {
 
 .fo-res-link .fo-res-18p {
     margin: 0 8px 0 10px;
-    background: url(./img/dark/18p.97a4a2a4.png) no-repeat 0;
+    background: url(/static/img/dark/18p.97a4a2a4.png) no-repeat 0;
     height: 40px;
     width: 40px;
     opacity: .2
@@ -22206,119 +22206,119 @@ a.fo-res-link {
 }
 
 .currencies li.btc {
-    background-image: url(./img/currencies/btc.addb4668.png)
+    background-image: url(/static/img/currencies/btc.addb4668.png)
 }
 
 .currencies li.eth {
-    background-image: url(./img/currencies/eth.bca72386.png)
+    background-image: url(/static/img/currencies/eth.bca72386.png)
 }
 
 .currencies li.xrp {
-    background-image: url(./img/currencies/xrp.45328811.png)
+    background-image: url(/static/img/currencies/xrp.45328811.png)
 }
 
 .currencies li.ltc {
-    background-image: url(./img/currencies/ltc.5c1a10f6.png)
+    background-image: url(/static/img/currencies/ltc.5c1a10f6.png)
 }
 
 .currencies li.doge {
-    background-image: url(./img/currencies/doge.ad93810f.png)
+    background-image: url(/static/img/currencies/doge.ad93810f.png)
 }
 
 .currencies li.bch {
-    background-image: url(./img/currencies/bch.b3920165.png)
+    background-image: url(/static/img/currencies/bch.b3920165.png)
 }
 
 .currencies li.dash {
-    background-image: url(./img/currencies/dash.a7ccc8ba.png)
+    background-image: url(/static/img/currencies/dash.a7ccc8ba.png)
 }
 
 .currencies li.zec {
-    background-image: url(./img/currencies/zec.b24d800e.png)
+    background-image: url(/static/img/currencies/zec.b24d800e.png)
 }
 
 .currencies li.bsv {
-    background-image: url(./img/currencies/bsv.749163e5.png)
+    background-image: url(/static/img/currencies/bsv.749163e5.png)
 }
 
 .currencies li.etc {
-    background-image: url(./img/currencies/etc.a70075b0.png)
+    background-image: url(/static/img/currencies/etc.a70075b0.png)
 }
 
 .currencies li.neo {
-    background-image: url(./img/currencies/neo.7baae47e.png)
+    background-image: url(/static/img/currencies/neo.7baae47e.png)
 }
 
 .currencies li.strat {
-    background-image: url(./img/currencies/strat.644f3f05.png)
+    background-image: url(/static/img/currencies/strat.644f3f05.png)
 }
 
 .currencies li.kmd {
-    background-image: url(./img/currencies/kmd.a285e781.png)
+    background-image: url(/static/img/currencies/kmd.a285e781.png)
 }
 
 .currencies li.btg {
-    background-image: url(./img/currencies/btg.bebc26f9.png)
+    background-image: url(/static/img/currencies/btg.bebc26f9.png)
 }
 
 .currencies li.lsk {
-    background-image: url(./img/currencies/lsk.bc3b4b1f.png)
+    background-image: url(/static/img/currencies/lsk.bc3b4b1f.png)
 }
 
 .currencies li.dgb {
-    background-image: url(./img/currencies/dgb.1d705215.png)
+    background-image: url(/static/img/currencies/dgb.1d705215.png)
 }
 
 .currencies li.qtum {
-    background-image: url(./img/currencies/qtum.481e0964.png)
+    background-image: url(/static/img/currencies/qtum.481e0964.png)
 }
 
 .currencies li.waves {
-    background-image: url(./img/currencies/waves.f480e676.png)
+    background-image: url(/static/img/currencies/waves.f480e676.png)
 }
 
 .currencies li.xlm {
-    background-image: url(./img/currencies/xlm.5a8539ff.png)
+    background-image: url(/static/img/currencies/xlm.5a8539ff.png)
 }
 
 .currencies li.eos {
-    background-image: url(./img/currencies/eos.551bad6d.png)
+    background-image: url(/static/img/currencies/eos.551bad6d.png)
 }
 
 .currencies li.trx {
-    background-image: url(./img/currencies/trx.e83ad785.png)
+    background-image: url(/static/img/currencies/trx.e83ad785.png)
 }
 
 .currencies li.usdt {
-    background-image: url(./img/currencies/usdt.0ccd27e0.png)
+    background-image: url(/static/img/currencies/usdt.0ccd27e0.png)
 }
 
 .currencies li.bnb {
-    background-image: url(./img/currencies/bnb.3740239d.png)
+    background-image: url(/static/img/currencies/bnb.3740239d.png)
 }
 
 .currencies li.busd {
-    background-image: url(./img/currencies/busd.14baed95.png)
+    background-image: url(/static/img/currencies/busd.14baed95.png)
 }
 
 .currencies li.sol {
-    background-image: url(./img/currencies/sol.047d26cf.png)
+    background-image: url(/static/img/currencies/sol.047d26cf.png)
 }
 
 .currencies li.ada {
-    background-image: url(./img/currencies/ada.dbf745ad.png)
+    background-image: url(/static/img/currencies/ada.dbf745ad.png)
 }
 
 .currencies li.usdc {
-    background-image: url(./img/currencies/usdc.9f783e71.png)
+    background-image: url(/static/img/currencies/usdc.9f783e71.png)
 }
 
 .currencies li.ethw {
-    background-image: url(./img/currencies/ethw.b6594536.png)
+    background-image: url(/static/img/currencies/ethw.b6594536.png)
 }
 
 .currencies li.matic {
-    background-image: url(./img/currencies/matic.82065bce.png)
+    background-image: url(/static/img/currencies/matic.82065bce.png)
 }
 
 .currencies li span {
@@ -22661,7 +22661,7 @@ a.fo-res-link {
 
 .swiper-outer {
     margin: 0 -7px;
-    background: url(./img/dark/dice.6d65f4dd.png);
+    background: url(/static/img/dark/dice.6d65f4dd.png);
     background-size: cover;
     padding: 42px 0 0;
     z-index: -1
@@ -22765,111 +22765,119 @@ a.fo-res-link {
 }
 
 .swiper-slide-inside.vip {
-    background-image: url(./img/sliders/vip.6680a453.png)
+    background-image: url(/static/img/sliders/vip.6680a453.png)
 }
 
 .swiper-slide-inside.btslr {
-    background-image: url(./img/sliders/btslr.d93b9e6b.png)
+    background-image: url(/static/img/sliders/btslr.d93b9e6b.png)
 }
 
 .swiper-slide-inside.lottery {
-    background-image: url(./img/sliders/lottery.9a53dd8d.png)
+    background-image: url(/static/img/sliders/lottery.9a53dd8d.png)
 }
 
 .swiper-slide-inside.epl {
-    background-image: url(./img/sliders/epl.e3ea3ef3.png)
+    background-image: url(/static/img/sliders/epl.e3ea3ef3.png)
 }
 
 .swiper-slide-inside.drops-and-wins {
-    background-image: url(./img/sliders/drops-and-wins.e3d68039.png)
+    background-image: url(/static/img/sliders/drops-and-wins.e3d68039.png)
 }
 
 .swiper-slide-inside.spinomenal-grand-holidays {
-    background-image: url(./img/sliders/spinomenal-grand-holidays.7e685864.jpg)
+    background-image: url(/static/img/sliders/spinomenal-grand-holidays.7e685864.jpg)
 }
 
 .swiper-slide-inside.welcome-bonus {
-    background-image: url(./img/sliders/welcome-bonus.ace05fb3.jpg)
+    background-image: url(/static/img/sliders/welcome-bonus.ace05fb3.jpg)
 }
 
 .swiper-slide-inside.videopoker-tournament {
-    background-image: url(./img/sliders/videopoker_tournament.d6c05ea8.jpg)
+    background-image: url(/static/img/sliders/videopoker_tournament.d6c05ea8.jpg)
 }
 
 .swiper-slide-inside.evoplay-tournament {
-    background-image: url(./img/sliders/evoplay-tournament.a5668b7f.jpg)
+    background-image: url(/static/img/sliders/evoplay-tournament.ec835a11.png)
+}
+
+.swiper-slide-inside.smartsoft-tournament {
+    background-image: url(/static/img/sliders/smartsoft-tournament.e3c12a4f.png)
 }
 
 .swiper-slide-inside.playson-friday-cash-flash {
-    background-image: url(./img/sliders/playson-friday-cash-flash.17447a05.jpg)
+    background-image: url(/static/img/sliders/playson-friday-cash-flash.17447a05.jpg)
 }
 
 .swiper-slide-inside.wazdan-network-cash-drop {
-    background-image: url(./img/sliders/wazdan-network-cash-drop.767730ac.jpg)
+    background-image: url(/static/img/sliders/wazdan-network-cash-drop.767730ac.jpg)
 }
 
 .swiper-slide-inside.epl-match {
-    background-image: url(./img/sliders/epl_match.55aa5d70.png)
+    background-image: url(/static/img/sliders/epl_match.55aa5d70.png)
 }
 
 .swiper-slide-inside.ipl {
-    background-image: url(./img/sliders/ipl_2022.7e278fcf.png)
+    background-image: url(/static/img/sliders/ipl_2022.7e278fcf.png)
 }
 
 .swiper-slide-inside.french_open_2022 {
-    background-image: url(./img/sliders/french_open.20d75968.jpg)
+    background-image: url(/static/img/sliders/french_open.20d75968.jpg)
 }
 
 .swiper-slide-inside.csgo-cashback {
-    background-image: url(./img/sliders/csgo-cashback.c011145c.png)
+    background-image: url(/static/img/sliders/csgo-cashback.7d0e7323.png)
 }
 
 .swiper-slide-inside.esports-joint-promotion {
-    background-image: url(./img/sliders/esports_joint_promotion.280bcdf0.jpg)
+    background-image: url(/static/img/sliders/esports_joint_promotion.280bcdf0.jpg)
 }
 
 .swiper-slide-inside.lucky-raffle {
-    background-image: url(./img/sliders/lucky-raffle.a0fda720.png)
+    background-image: url(/static/img/sliders/lucky-raffle.a0fda720.png)
 }
 
 .swiper-slide-inside.rakeback_promo {
-    background-image: url(./img/sliders/rakeback_autumn_promo.7e4252e3.jpg)
+    background-image: url(/static/img/sliders/rakeback_autumn_promo.7e4252e3.jpg)
 }
 
 .swiper-slide-inside.ucl {
-    background-image: url(./img/sliders/ucl.d249ebaf.png)
+    background-image: url(/static/img/sliders/ucl.d249ebaf.png)
 }
 
 .swiper-slide-inside.wimbledon {
-    background-image: url(./img/sliders/wimbledon-tournament.ccb3e055.jpg)
+    background-image: url(/static/img/sliders/wimbledon-tournament.ccb3e055.jpg)
+}
+
+.swiper-slide-inside.nba-promotion {
+    background-image: url(/static/img/sliders/nba_promo.b28dd408.jpg)
 }
 
 .swiper-slide-inside.uefa-champions-league {
-    background-image: url(./img/sliders/uefa-champions-league.6f787c17.png)
+    background-image: url(/static/img/sliders/uefa-champions-league.6f787c17.png)
 }
 
 .swiper-slide-inside.us-open-2022 {
-    background-image: url(./img/sliders/us-open-2022.433df2c6.png)
+    background-image: url(/static/img/sliders/us-open-2022.433df2c6.png)
 }
 
 .swiper-slide-inside.english-premier-league {
-    background-image: url(./img/sliders/english-premier-league.e6100b06.png)
+    background-image: url(/static/img/sliders/english-premier-league.e6100b06.png)
 }
 
 .swiper-slide-inside.au-open {
-    background-image: url(./img/sliders/au-open.8da6cc00.png)
+    background-image: url(/static/img/sliders/au-open.8da6cc00.png)
 }
 
 .swiper-slide-inside.dota2 {
-    background-image: url(./img/sliders/dota2.96d9affd.png)
+    background-image: url(/static/img/sliders/dota2.96d9affd.png)
 }
 
 .swiper-slide-inside.gamers-galaxy {
-    background-image: url(./img/sliders/gamers-galaxy.f838b379.png)
+    background-image: url(/static/img/sliders/gamers-galaxy.f838b379.png)
 }
 
 .swiper-slide-inside.xp-contest {
-    background-image: url(./img/sliders/xp-contest.41767f9a.png)
+    background-image: url(/static/img/sliders/xp-contest.41767f9a.png)
 }
 
 .swiper-slide .swiper-slide-inside.vip:after {
@@ -22905,7 +22913,11 @@ a.fo-res-link {
 }
 
 .swiper-slide .swiper-slide-inside.evoplay-tournament:after {
-    background: #061810
+    background: #060f3d
+}
+
+.swiper-slide .swiper-slide-inside.smartsoft-tournament:after {
+    background: #000a3d
 }
 
 .swiper-slide .swiper-slide-inside.playson-friday-cash-flash:after {
@@ -22929,7 +22941,7 @@ a.fo-res-link {
 }
 
 .swiper-slide .swiper-slide-inside.csgo-cashback:after {
-    background: #061026
+    background: #06080d
 }
 
 .swiper-slide .swiper-slide-inside.esports-joint-promotion:after {
@@ -22958,6 +22970,10 @@ a.fo-res-link {
 
 .swiper-slide .swiper-slide-inside.wimbledon:after {
     background: #3a2871
+}
+
+.swiper-slide .swiper-slide-inside.nba-promotion:after {
+    background: #040148
 }
 
 .swiper-slide .swiper-slide-inside.us-open-2022:after {
@@ -23148,7 +23164,11 @@ a.fo-res-link {
 }
 
 .swiper-slide-inside.evoplay-tournament {
-    background-color: #061810
+    background-color: #060f3d
+}
+
+.swiper-slide-inside.smartsoft-tournament {
+    background-color: #000a3d
 }
 
 .swiper-slide-inside.playson-friday-cash-flash {
@@ -23172,7 +23192,7 @@ a.fo-res-link {
 }
 
 .swiper-slide-inside.csgo-cashback {
-    background-color: #061026
+    background-color: #06080d
 }
 
 .swiper-slide-inside.esports-joint-promotion {
@@ -23189,6 +23209,10 @@ a.fo-res-link {
 
 .swiper-slide-inside.ucl {
     background-color: #07134d
+}
+
+.swiper-slide-inside.nba-promotion {
+    background-color: #040148
 }
 
 .swiper-slide-inside.uefa-champions-league {
@@ -23243,7 +23267,7 @@ a.fo-res-link {
     width: 233px;
     right: -233px;
     top: 0;
-    background-image: url(./img/dark/style.2f90b806.png);
+    background-image: url(/static/img/dark/style.2f90b806.png);
     background-size: contain;
     background-repeat: no-repeat
 }
@@ -23264,7 +23288,7 @@ a.fo-res-link {
     width: 233px;
     left: -233px;
     top: 0;
-    background-image: url(./img/dark/style.2f90b806.png);
+    background-image: url(/static/img/dark/style.2f90b806.png);
     transform: scaleX(-1);
     background-size: contain;
     background-repeat: no-repeat
@@ -23536,111 +23560,119 @@ a.fo-res-link {
     }
 
     .swiper-slide-inside.vip {
-        background-image: url(./img/575/vip.d0bbf30f.png)
+        background-image: url(/static/img/575/vip.d0bbf30f.png)
     }
 
     .swiper-slide-inside.btslr {
-        background-image: url(./img/575/btslr.54791be1.png)
+        background-image: url(/static/img/575/btslr.54791be1.png)
     }
 
     .swiper-slide-inside.lottery {
-        background-image: url(./img/575/lottery.3bc9ce64.png)
+        background-image: url(/static/img/575/lottery.3bc9ce64.png)
     }
 
     .swiper-slide-inside.epl {
-        background-image: url(./img/575/epl.7e34d4b2.png)
+        background-image: url(/static/img/575/epl.7e34d4b2.png)
     }
 
     .swiper-slide-inside.drops-and-wins {
-        background-image: url(./img/575/drops-and-wins.121ee745.png)
+        background-image: url(/static/img/575/drops-and-wins.121ee745.png)
     }
 
     .swiper-slide-inside.spinomenal-grand-holidays {
-        background-image: url(./img/575/spinomenal-grand-holidays.91c0fdf1.jpg)
+        background-image: url(/static/img/575/spinomenal-grand-holidays.91c0fdf1.jpg)
     }
 
     .swiper-slide-inside.welcome-bonus {
-        background-image: url(./img/575/welcome-bonus.ef927533.jpg)
+        background-image: url(/static/img/575/welcome-bonus.ef927533.jpg)
     }
 
     .swiper-slide-inside.videopoker-tournament {
-        background-image: url(./img/575/videopoker_tournament.9002445a.jpg)
+        background-image: url(/static/img/575/videopoker_tournament.9002445a.jpg)
     }
 
     .swiper-slide-inside.evoplay-tournament {
-        background-image: url(./img/575/evoplay-tournament.259c64ee.jpg)
+        background-image: url(/static/img/575/evoplay-tournament.2e945d96.png)
+    }
+
+    .swiper-slide-inside.smartsoft-tournament {
+        background-image: url(/static/img/575/smartsoft-tournament.67d626fb.png)
     }
 
     .swiper-slide-inside.playson-friday-cash-flash {
-        background-image: url(./img/575/playson-friday-cash-flash.0d4a8651.jpg)
+        background-image: url(/static/img/575/playson-friday-cash-flash.0d4a8651.jpg)
     }
 
     .swiper-slide-inside.wazdan-network-cash-drop {
-        background-image: url(./img/575/wazdan-network-cash-drop.7a789e84.jpg)
+        background-image: url(/static/img/575/wazdan-network-cash-drop.7a789e84.jpg)
     }
 
     .swiper-slide-inside.epl-match {
-        background-image: url(./img/575/epl_match.143ec083.png)
+        background-image: url(/static/img/575/epl_match.143ec083.png)
     }
 
     .swiper-slide-inside.ipl {
-        background-image: url(./img/575/ipl_2022.38445ab0.png)
+        background-image: url(/static/img/575/ipl_2022.38445ab0.png)
     }
 
     .swiper-slide-inside.french_open_2022 {
-        background-image: url(./img/575/french_open.f3e2c29d.jpg)
+        background-image: url(/static/img/575/french_open.f3e2c29d.jpg)
     }
 
     .swiper-slide-inside.rakeback_promo {
-        background-image: url(./img/575/rakeback_autumn_promo.a2985adb.jpg)
+        background-image: url(/static/img/575/rakeback_autumn_promo.a2985adb.jpg)
     }
 
     .swiper-slide-inside.ucl {
-        background-image: url(./img/575/ucl.3c82e56f.png)
+        background-image: url(/static/img/575/ucl.3c82e56f.png)
     }
 
     .swiper-slide-inside.uefa-champions-league {
-        background-image: url(./img/575/uefa-champions-league.f91b3f6b.png)
+        background-image: url(/static/img/575/uefa-champions-league.f91b3f6b.png)
     }
 
     .swiper-slide-inside.wimbledon {
-        background-image: url(./img/575/wimbledon-tournament.16713bd5.jpg)
+        background-image: url(/static/img/575/wimbledon-tournament.16713bd5.jpg)
+    }
+
+    .swiper-slide-inside.nba-promotion {
+        background-image: url(/static/img/575/nba_promo.ceec03fc.jpg)
     }
 
     .swiper-slide-inside.us-open-2022 {
-        background-image: url(./img/575/us-open-2022.89f799e5.png)
+        background-image: url(/static/img/575/us-open-2022.89f799e5.png)
     }
 
     .swiper-slide-inside.english-premier-league {
-        background-image: url(./img/575/english-premier-league.7e263cb5.png)
+        background-image: url(/static/img/575/english-premier-league.7e263cb5.png)
     }
 
     .swiper-slide-inside.au-open {
-        background-image: url(./img/575/au-open.d67fb83c.png)
+        background-image: url(/static/img/575/au-open.d67fb83c.png)
     }
 
     .swiper-slide-inside.dota2 {
-        background-image: url(./img/575/dota2.d207bfb3.png)
+        background-image: url(/static/img/575/dota2.d207bfb3.png)
     }
 
     .swiper-slide-inside.gamers-galaxy {
-        background-image: url(./img/575/gamers-galaxy.7e0fc975.png)
+        background-image: url(/static/img/575/gamers-galaxy.7e0fc975.png)
     }
 
     .swiper-slide-inside.xp-contest {
-        background-image: url(./img/575/xp-contest.52616bae.png)
+        background-image: url(/static/img/575/xp-contest.52616bae.png)
     }
 
     .swiper-slide-inside.csgo-cashback {
-        background-image: url(./img/575/csgo-cashback.44071354.png)
+        background-image: url(/static/img/575/csgo-cashback.b49325c1.png)
     }
 
     .swiper-slide-inside.esports-joint-promotion {
-        background-image: url(./img/575/esports_joint_promotion.d860133f.jpg)
+        background-image: url(/static/img/575/esports_joint_promotion.d860133f.jpg)
     }
 
     .swiper-slide-inside.lucky-raffle {
-        background-image: url(./img/575/lucky-raffle.5f4a02c4.png)
+        background-image: url(/static/img/575/lucky-raffle.5f4a02c4.png)
     }
 
     .slider-right:before {
@@ -23805,16 +23837,15 @@ a.fo-res-link {
 }
 
 .ov li.ov-casino a>span.image {
-    background-image: url("../static/img/dashboard/casino.da0f460b.png");
+    background-image: url(/static/img/dashboard/casino.da0f460b.png)
 }
 
 .ov li.ov-sports a>span.image {
-    /* background-image: url("../../static/img/dashboard/sports.ab744f3a.png"); */
-    background-image:url("../img/dashboard/sports.ab744f3a.png");
+    background-image: url(/static/img/dashboard/sports.ab744f3a.png)
 }
 
 .ov li.ov-esports a>span.image {
-    background-image: url("..//img/dashboard/esports.86e070a3.png");
+    background-image: url(/static/img/dashboard/esports.86e070a3.png)
 }
 
 .ov-billion {
@@ -23867,67 +23898,67 @@ a.fo-res-link {
 }
 
 .ov-stats .game.boom:before {
-    background-image: url(./img/contest/icon_boom.09d5def3.png)
+    background-image: url(/static/img/contest/icon_boom.09d5def3.png)
 }
 
 .ov-stats .game.dice:before {
-    background-image: url(./img/contest/icon_dice.40c30760.png)
+    background-image: url(/static/img/contest/icon_dice.40c30760.png)
 }
 
 .ov-stats .game.roulette:before {
-    background-image: url(./img/contest/icon_roulette.0cd206dd.png)
+    background-image: url(/static/img/contest/icon_roulette.0cd206dd.png)
 }
 
 .ov-stats .game.blast:before {
-    background-image: url(./img/contest/icon_blast.8a89d1e9.png)
+    background-image: url(/static/img/contest/icon_blast.8a89d1e9.png)
 }
 
 .ov-stats .game.multicolor:before {
-    background-image: url(./img/contest/icon_multicolor.a31d1a53.png)
+    background-image: url(/static/img/contest/icon_multicolor.a31d1a53.png)
 }
 
 .ov-stats .game.caraycruz:before {
-    background-image: url(./img/contest/icon_caraycruz.480c911c.png)
+    background-image: url(/static/img/contest/icon_caraycruz.480c911c.png)
 }
 
 .ov-stats .game.dicey:before {
-    background-image: url(./img/contest/icon_dicey.0f14907f.png)
+    background-image: url(/static/img/contest/icon_dicey.0f14907f.png)
 }
 
 .ov-stats .game.twist:before {
-    background-image: url(./img/contest/icon_twist.74d26e4d.png)
+    background-image: url(/static/img/contest/icon_twist.74d26e4d.png)
 }
 
 .ov-stats .game.fruitsler:before {
-    background-image: url(./img/contest/icon_fruitsler.f1ff2fe2.png)
+    background-image: url(/static/img/contest/icon_fruitsler.f1ff2fe2.png)
 }
 
 .ov-stats .game.cryptothugs:before {
-    background-image: url(./img/contest/icon_cryptothugs.ae7c22ed.png)
+    background-image: url(/static/img/contest/icon_cryptothugs.ae7c22ed.png)
 }
 
 .ov-stats .game.blackjack:before {
-    background-image: url(./img/contest/icon_blackjack.6370fef0.png)
+    background-image: url(/static/img/contest/icon_blackjack.6370fef0.png)
 }
 
 .ov-stats .game.plinko:before {
-    background-image: url(./img/contest/icon_plinko.4fe4566d.png)
+    background-image: url(/static/img/contest/icon_plinko.4fe4566d.png)
 }
 
 .ov-stats .game.keno:before {
-    background-image: url(./img/contest/icon_keno.0e8d0a8e.png)
+    background-image: url(/static/img/contest/icon_keno.0e8d0a8e.png)
 }
 
 .ov-stats .game.flashroulett:before {
-    background-image: url(./img/contest/icon_flashroulette.78f040ca.png)
+    background-image: url(/static/img/contest/icon_flashroulette.78f040ca.png)
 }
 
 .ov-stats .game.baccarat:before {
-    background-image: url(./img/contest/icon_baccarat.473428c8.png)
+    background-image: url(/static/img/contest/icon_baccarat.473428c8.png)
 }
 
 .ov-stats .game.videopoker:before {
-    background-image: url(./img/contest/icon_videopoker.97ef8afa.png)
+    background-image: url(/static/img/contest/icon_videopoker.97ef8afa.png)
 }
 
 .ov-stats .col-12 {
@@ -23935,13 +23966,13 @@ a.fo-res-link {
 }
 
 #app.guest .ov-stats {
-    background: url(./img/dark/dice.6d65f4dd.png);
+    background: url(/static/img/dark/dice.6d65f4dd.png);
     background-size: cover;
     padding: 80px 0 30px
 }
 
 #app.user .ov-stats:after {
-    background: url(./img/dark/dice.6d65f4dd.png);
+    background: url(/static/img/dark/dice.6d65f4dd.png);
     background-size: cover;
     z-index: 2;
     transform: rotate(2deg)
@@ -24116,7 +24147,7 @@ a.fo-res-link {
     width: 100%;
     min-height: 126px;
     padding-top: 21.75%;
-    background: url(./img/dashboard/wager.007fdb59.png) no-repeat 50%;
+    background: url(/static/img/dashboard/wager.007fdb59.png) no-repeat 50%;
     background-size: cover;
     overflow: hidden;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, .15);
@@ -24278,7 +24309,7 @@ a.fo-res-link {
 
     .ov-contests>.ov-contests-bg {
         padding-top: 40.5%;
-        background: url(./img/dashboard/wagerm.a420ef41.png) no-repeat 50%;
+        background: url(/static/img/dashboard/wagerm.a420ef41.png) no-repeat 50%;
         background-size: cover
     }
 
@@ -24780,27 +24811,27 @@ a.fo-res-link {
 }
 
 .ov-promos li.ov-promos-vip h3 {
-    background-image: url(./img/dashboard/header_vip.925a2c92.png)
+    background-image: url(/static/img/dashboard/header_vip.925a2c92.png)
 }
 
 .ov-promos li.ov-promos-wager h3 {
-    background-image: url(./img/dashboard/header_wager.4c7b588a.png)
+    background-image: url(/static/img/dashboard/header_wager.4c7b588a.png)
 }
 
 .ov-promos li.ov-promos-btslr h3 {
-    background-image: url(./img/dashboard/header_btslr.d2e9913c.png)
+    background-image: url(/static/img/dashboard/header_btslr.d2e9913c.png)
 }
 
 .ov-promos li.ov-promos-lottery h3 {
-    background-image: url(./img/dashboard/header_lottery.12daff32.png)
+    background-image: url(/static/img/dashboard/header_lottery.12daff32.png)
 }
 
 .ov-promos li.ov-promos-social h3 {
-    background-image: url(./img/dashboard/header_social.3771d343.png)
+    background-image: url(/static/img/dashboard/header_social.3771d343.png)
 }
 
 .ov-promos li.ov-promos-billion h3 {
-    background-image: url(./img/dashboard/header_billion.c7fc9ca9.png)
+    background-image: url(/static/img/dashboard/header_billion.c7fc9ca9.png)
 }
 
 .ov-promos li p {
@@ -25490,11 +25521,11 @@ screen and (max-width:1365px) {
 }
 
 .di .sd {
-    background-image: url(./img/dark/dice.6d65f4dd.png)
+    background-image: url(/static/img/dark/dice.6d65f4dd.png)
 }
 
 .cy .sd {
-    background: #493152 url(./img/dark/caraycruz.346ad8ae.jpg)
+    background: #493152 url(/static/img/dark/caraycruz.346ad8ae.jpg)
 }
 
 .cy .sd-header {
@@ -25502,7 +25533,7 @@ screen and (max-width:1365px) {
 }
 
 .mc .sd {
-    background-image: url(./img/dark/multicolor.e63506ed.jpg)
+    background-image: url(/static/img/dark/multicolor.e63506ed.jpg)
 }
 
 .mc .sd-header {
@@ -25510,7 +25541,7 @@ screen and (max-width:1365px) {
 }
 
 .ro .sd {
-    background-image: url(./img/dark/roulette.7bf5cf7a.jpg)
+    background-image: url(/static/img/dark/roulette.7bf5cf7a.jpg)
 }
 
 .ro .sd-header {
@@ -25519,7 +25550,7 @@ screen and (max-width:1365px) {
 
 .bx .sd,
 .cl .sd {
-    background-image: url(./img/dark/dice.6d65f4dd.png)
+    background-image: url(/static/img/dark/dice.6d65f4dd.png)
 }
 
 .sd-header>div {
@@ -25966,7 +25997,7 @@ screen and (max-width:1365px) {
 }
 
 .sd.sd-position .position {
-    background: url(./img/dark/games.475f5924.png) no-repeat 50%;
+    background: url(/static/img/dark/games.475f5924.png) no-repeat 50%;
     background-size: cover
 }
 
@@ -26018,7 +26049,7 @@ div.position {
 }
 
 .lb-header {
-    background: url(./img/dark/games.475f5924.png) no-repeat 50%;
+    background: url(/static/img/dark/games.475f5924.png) no-repeat 50%;
     border-radius: 12px;
     border: 3px solid #1a2530;
     min-height: 180px;
@@ -26029,15 +26060,15 @@ div.position {
 }
 
 .lb-header.lb-header-btslr {
-    background-image: url(./img/dark/btslr.16384695.png)
+    background-image: url(/static/img/dark/btslr.16384695.png)
 }
 
 .lb-header.lb-header-dice {
-    background-image: url(./img/dark/dice.3a1841d4.png)
+    background-image: url(/static/img/dark/dice.3a1841d4.png)
 }
 
 .lb-header.lb-header-vip {
-    background-image: url(./img/dark/vip.69a0a445.png);
+    background-image: url(/static/img/dark/vip.69a0a445.png);
     background-position: bottom
 }
 
@@ -26473,7 +26504,7 @@ div.position {
 
 #game.ov-wrapper.casino {
     background-color: #263340;
-    background: url(./img/dark/dice.6d65f4dd.png) 50% no-repeat;
+    background: url(/static/img/dark/dice.6d65f4dd.png) 50% no-repeat;
     background-size: cover
 }
 
@@ -26652,7 +26683,7 @@ div.position {
 }
 
 #game.not-found {
-    background: url(./img/dark/dice.6d65f4dd.png);
+    background: url(/static/img/dark/dice.6d65f4dd.png);
     margin-bottom: 0
 }
 
@@ -27813,7 +27844,8 @@ div.position {
     margin: 0
 }
 
-.esports-joint-promotion-modal .modal-body {
+.esports-joint-promotion-modal .modal-body,
+.nba-promotion-modal .modal-body {
     padding: 0;
     padding-top: 14px
 }
@@ -28752,207 +28784,207 @@ div.position {
 }
 
 .event-status__wrapper.age-of-empires:before {
-    background-image: url(./img/headers/age-of-empires.df6d2e4f.png)
+    background-image: url(/static/img/headers/age-of-empires.df6d2e4f.png)
 }
 
 .event-status__wrapper.arena-of-valor:before {
-    background-image: url(./img/headers/arena-of-valor.9ddeec74.png)
+    background-image: url(/static/img/headers/arena-of-valor.9ddeec74.png)
 }
 
 .event-status__wrapper.halo:before {
-    background-image: url(./img/headers/halo.ca7ea959.png)
+    background-image: url(/static/img/headers/halo.ca7ea959.png)
 }
 
 .event-status__wrapper.mobile-legends:before {
-    background-image: url(./img/headers/mobile-legends.b9bbf30d.png)
+    background-image: url(/static/img/headers/mobile-legends.b9bbf30d.png)
 }
 
 .event-status__wrapper.wild-rift:before {
-    background-image: url(./img/headers/wild-rift.d4dd7d81.png)
+    background-image: url(/static/img/headers/wild-rift.d4dd7d81.png)
 }
 
 .event-status__wrapper.american-football:before {
-    background-image: url(./img/headers/american-football.c83c25c8.png)
+    background-image: url(/static/img/headers/american-football.c83c25c8.png)
 }
 
 .event-status__wrapper.aussie-rules:before {
-    background-image: url(./img/headers/aussie-rules.9c4d7b04.png)
+    background-image: url(/static/img/headers/aussie-rules.9c4d7b04.png)
 }
 
 .event-status__wrapper.badminton:before {
-    background-image: url(./img/headers/badminton.46510675.png)
+    background-image: url(/static/img/headers/badminton.46510675.png)
 }
 
 .event-status__wrapper.baseball:before {
-    background-image: url(./img/headers/baseball.51c3ee26.png)
+    background-image: url(/static/img/headers/baseball.51c3ee26.png)
 }
 
 .event-status__wrapper.basketball:before {
-    background-image: url(./img/headers/basketball.6de0c9a0.png)
+    background-image: url(/static/img/headers/basketball.6de0c9a0.png)
 }
 
 .event-status__wrapper.beach-volleyball:before {
-    background-image: url(./img/headers/beach-volleyball.3f8e42e4.png)
+    background-image: url(/static/img/headers/beach-volleyball.3f8e42e4.png)
 }
 
 .event-status__wrapper.boxing:before {
-    background-image: url(./img/headers/boxing.3b2c1906.png)
+    background-image: url(/static/img/headers/boxing.3b2c1906.png)
 }
 
 .event-status__wrapper.call-of-duty:before {
-    background-image: url(./img/headers/call-of-duty.ce819550.png)
+    background-image: url(/static/img/headers/call-of-duty.ce819550.png)
 }
 
 .event-status__wrapper.counter-strike:before {
-    background-image: url(./img/headers/counter-strike.82e37a97.png)
+    background-image: url(/static/img/headers/counter-strike.82e37a97.png)
 }
 
 .event-status__wrapper.cricket:before {
-    background-image: url(./img/headers/cricket.a1f6b416.png)
+    background-image: url(/static/img/headers/cricket.a1f6b416.png)
 }
 
 .event-status__wrapper.cycling:before {
-    background-image: url(./img/headers/cycling.0cf4ebb4.png)
+    background-image: url(/static/img/headers/cycling.0cf4ebb4.png)
 }
 
 .event-status__wrapper.darts:before {
-    background-image: url(./img/headers/darts.3a375abd.png)
+    background-image: url(/static/img/headers/darts.3a375abd.png)
 }
 
 .event-status__wrapper.dota-2:before {
-    background-image: url(./img/headers/dota-2.40affff7.png)
+    background-image: url(/static/img/headers/dota-2.40affff7.png)
 }
 
 .event-status__wrapper.fifa:before {
-    background-image: url(./img/headers/fifa.1ed3289b.png)
+    background-image: url(/static/img/headers/fifa.1ed3289b.png)
 }
 
 .event-status__wrapper.futsal:before {
-    background-image: url(./img/headers/futsal.2bf9fb4f.png)
+    background-image: url(/static/img/headers/futsal.2bf9fb4f.png)
 }
 
 .event-status__wrapper.gaelic-football:before {
-    background-image: url(./img/headers/gaelic-football.3b6f9b55.png)
+    background-image: url(/static/img/headers/gaelic-football.3b6f9b55.png)
 }
 
 .event-status__wrapper.gaelic-hurling:before {
-    background-image: url(./img/headers/gaelic-hurling.de4c7851.png)
+    background-image: url(/static/img/headers/gaelic-hurling.de4c7851.png)
 }
 
 .event-status__wrapper.golf:before {
-    background-image: url(./img/headers/golf.e330e016.png)
+    background-image: url(/static/img/headers/golf.e330e016.png)
 }
 
 .event-status__wrapper.handball:before {
-    background-image: url(./img/headers/handball.2d92b5b7.png)
+    background-image: url(/static/img/headers/handball.2d92b5b7.png)
 }
 
 .event-status__wrapper.hearthstone:before {
-    background-image: url(./img/headers/hearthstone.9e22a969.png)
+    background-image: url(/static/img/headers/hearthstone.9e22a969.png)
 }
 
 .event-status__wrapper.ice-hockey:before {
-    background-image: url(./img/headers/ice-hockey.edf4b077.png)
+    background-image: url(/static/img/headers/ice-hockey.edf4b077.png)
 }
 
 .event-status__wrapper.king-of-glory:before {
-    background-image: url(./img/headers/king-of-glory.ed7a85ab.png)
+    background-image: url(/static/img/headers/king-of-glory.ed7a85ab.png)
 }
 
 .event-status__wrapper.league-of-legends:before {
-    background-image: url(./img/headers/league-of-legends.8c2c9fa7.png)
+    background-image: url(/static/img/headers/league-of-legends.8c2c9fa7.png)
 }
 
 .event-status__wrapper.mma:before {
-    background-image: url(./img/headers/mma.fbcc70d7.png)
+    background-image: url(/static/img/headers/mma.fbcc70d7.png)
 }
 
 .event-status__wrapper.motorsport:before {
-    background-image: url(./img/headers/motorsport.a8bc4dbe.png)
+    background-image: url(/static/img/headers/motorsport.a8bc4dbe.png)
 }
 
 .event-status__wrapper.overwatch:before {
-    background-image: url(./img/headers/overwatch.3c9051de.png)
+    background-image: url(/static/img/headers/overwatch.3c9051de.png)
 }
 
 .event-status__wrapper.pubg:before {
-    background-image: url(./img/headers/pubg.4a4a06c9.png)
+    background-image: url(/static/img/headers/pubg.4a4a06c9.png)
 }
 
 .event-status__wrapper.rainbow-six:before {
-    background-image: url(./img/headers/rainbow-six.51c5c79e.png)
+    background-image: url(/static/img/headers/rainbow-six.51c5c79e.png)
 }
 
 .event-status__wrapper.rocket-league:before {
-    background-image: url(./img/headers/rocket-league.2c3fa8fd.png)
+    background-image: url(/static/img/headers/rocket-league.2c3fa8fd.png)
 }
 
 .event-status__wrapper.rugby:before {
-    background-image: url(./img/headers/rugby.58d7ccab.png)
+    background-image: url(/static/img/headers/rugby.58d7ccab.png)
 }
 
 .event-status__wrapper.snooker:before {
-    background-image: url(./img/headers/snooker.a397135e.png)
+    background-image: url(/static/img/headers/snooker.a397135e.png)
 }
 
 .event-status__wrapper.soccer:before {
-    background-image: url(./img/headers/soccer.37194816.png)
+    background-image: url(/static/img/headers/soccer.37194816.png)
 }
 
 .event-status__wrapper.starcraft:before {
-    background-image: url(./img/headers/starcraft.016bffbc.png)
+    background-image: url(/static/img/headers/starcraft.016bffbc.png)
 }
 
 .event-status__wrapper.starcraft-2:before {
-    background-image: url(./img/headers/starcraft-2.016bffbc.png)
+    background-image: url(/static/img/headers/starcraft-2.016bffbc.png)
 }
 
 .event-status__wrapper.table-tennis:before {
-    background-image: url(./img/headers/table-tennis.90350e2a.png)
+    background-image: url(/static/img/headers/table-tennis.90350e2a.png)
 }
 
 .event-status__wrapper.tennis:before {
-    background-image: url(./img/headers/tennis.6b6bc4ac.png)
+    background-image: url(/static/img/headers/tennis.6b6bc4ac.png)
 }
 
 .event-status__wrapper.valorant:before {
-    background-image: url(./img/headers/valorant.475e1476.png)
+    background-image: url(/static/img/headers/valorant.475e1476.png)
 }
 
 .event-status__wrapper.volleybal:before {
-    background-image: url(./img/headers/volleybal.95a8d736.png)
+    background-image: url(/static/img/headers/volleybal.95a8d736.png)
 }
 
 .event-status__wrapper.sailing:before {
-    background-image: url(./img/headers/sailing.76490370.png)
+    background-image: url(/static/img/headers/sailing.76490370.png)
 }
 
 .event-status__wrapper.floorball:before {
-    background-image: url(./img/headers/floorball.f02ad816.png)
+    background-image: url(/static/img/headers/floorball.f02ad816.png)
 }
 
 .event-status__wrapper.squash:before {
-    background-image: url(./img/headers/squash.674ed388.png)
+    background-image: url(/static/img/headers/squash.674ed388.png)
 }
 
 .event-status__wrapper.bowls:before {
-    background-image: url(./img/headers/bowls.881a75bc.png)
+    background-image: url(/static/img/headers/bowls.881a75bc.png)
 }
 
 .event-status__wrapper.pesapallo:before {
-    background-image: url(./img/headers/pesapallo.a106bce8.png)
+    background-image: url(/static/img/headers/pesapallo.a106bce8.png)
 }
 
 .event-status__wrapper.waterpolo:before {
-    background-image: url(./img/headers/waterpolo.c1a1ae2a.png)
+    background-image: url(/static/img/headers/waterpolo.c1a1ae2a.png)
 }
 
 .event-status__wrapper.wintersport:before {
-    background-image: url(./img/headers/wintersport.7d143050.png)
+    background-image: url(/static/img/headers/wintersport.7d143050.png)
 }
 
 .event-status__wrapper.nba2k:before {
-    background-image: url(./img/headers/nba2k.ff2f7fab.png)
+    background-image: url(/static/img/headers/nba2k.ff2f7fab.png)
 }
 
 .event-status__wrapper:before {
@@ -29199,7 +29231,7 @@ div.position {
     width: 60%;
     min-width: 320px;
     height: 100%;
-    background-image: url(./img/sports/esports-match-overlay.f9fa38c2.png);
+    background-image: url(/static/img/sports/esports-match-overlay.f9fa38c2.png);
     background-size: 100% 100%
 }
 
@@ -31599,7 +31631,7 @@ div.position {
 }
 
 .sports-page {
-    background: url(./img/dark/dice.6d65f4dd.png) no-repeat;
+    background: url(/static/img/dark/dice.6d65f4dd.png) no-repeat;
     background-size: cover;
     background-attachment: fixed;
     padding: 42px;
@@ -32669,7 +32701,7 @@ div.position {
 }
 
 .settings {
-    background: url(./img/dark/dice.6d65f4dd.png);
+    background: url(/static/img/dark/dice.6d65f4dd.png);
     background-size: cover;
     padding: 28px 0;
     min-height: calc(100vh - 400px)
@@ -33545,7 +33577,7 @@ div.position {
 }
 
 .di-bg {
-    background: url(./img/dark/dice.6d65f4dd.png);
+    background: url(/static/img/dark/dice.6d65f4dd.png);
     background-size: cover
 }
 
@@ -33567,7 +33599,7 @@ div.position {
     height: 168px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    background-image: url(./img/dice/banner.5974350e.png);
+    background-image: url(/static/img/dice/banner.5974350e.png);
     padding: 42px 28px
 }
 
@@ -33593,7 +33625,7 @@ div.position {
 @media(max-width:575.98px) {
     .di-promo {
         height: 40vw;
-        background-image: url(./img/dice/banner_mobile.0ac90101.png);
+        background-image: url(/static/img/dice/banner_mobile.0ac90101.png);
         margin: 0 28px;
         padding: 35px 14px
     }
@@ -33716,7 +33748,7 @@ div.position {
 }
 
 .mc-bg {
-    background: url(./img/dark/multicolor.e63506ed.jpg) repeat top
+    background: url(/static/img/dark/multicolor.e63506ed.jpg) repeat top
 }
 
 .mc-top {
@@ -33725,7 +33757,7 @@ div.position {
 }
 
 .mc-title {
-    background: url(./img/multicolor/title.a4042260.png) no-repeat center 85px
+    background: url(/static/img/multicolor/title.a4042260.png) no-repeat center 85px
 }
 
 .mc .bal {
@@ -33811,7 +33843,7 @@ div.position {
 }
 
 .mc-wheel-wrapper {
-    background: url(./img/multicolor/wheel_shadow.2e1c3962.png) no-repeat;
+    background: url(/static/img/multicolor/wheel_shadow.2e1c3962.png) no-repeat;
     margin: -10px auto 10px;
     width: 308px;
     height: 308px;
@@ -33823,7 +33855,7 @@ div.position {
     height: 252px;
     width: 252px;
     position: absolute;
-    background: url(./img/multicolor/wheel.9dabd34e.png) no-repeat;
+    background: url(/static/img/multicolor/wheel.9dabd34e.png) no-repeat;
     transition-property: transform
 }
 
@@ -33834,7 +33866,7 @@ div.position {
 .mc-wheel {
     height: 280px;
     width: 280px;
-    background: url(./img/multicolor/wheel_metal.b33f045e.png) no-repeat;
+    background: url(/static/img/multicolor/wheel_metal.b33f045e.png) no-repeat;
     position: absolute;
     top: 13px;
     left: 13px
@@ -33884,7 +33916,7 @@ div.position {
 .mc-illustration {
     width: 200px;
     height: 50px;
-    background: url(./img/multicolor/illustration.87116ed7.png) no-repeat;
+    background: url(/static/img/multicolor/illustration.87116ed7.png) no-repeat;
     margin: 14px auto
 }
 
@@ -34170,7 +34202,7 @@ div.position {
 }
 
 .ro-bg {
-    background: url(./img/dark/roulette.7bf5cf7a.jpg);
+    background: url(/static/img/dark/roulette.7bf5cf7a.jpg);
     box-shadow: inset 0 0 200px 0 rgba(0, 0, 0, .75)
 }
 
@@ -34634,27 +34666,27 @@ div.position {
 }
 
 .chip.purple {
-    background-image: url(./img/roulette/chip-purple.c25984e0.png)
+    background-image: url(/static/img/roulette/chip-purple.c25984e0.png)
 }
 
 .chip.blue {
-    background-image: url(./img/roulette/chip-blue.8f4f1851.png)
+    background-image: url(/static/img/roulette/chip-blue.8f4f1851.png)
 }
 
 .chip.green {
-    background-image: url(./img/roulette/chip-green.6954d360.png)
+    background-image: url(/static/img/roulette/chip-green.6954d360.png)
 }
 
 .chip.red {
-    background-image: url(./img/roulette/chip-red.96f5aaf5.png)
+    background-image: url(/static/img/roulette/chip-red.96f5aaf5.png)
 }
 
 .chip.gray {
-    background-image: url(./img/roulette/chip-gray.7b10d0ad.png)
+    background-image: url(/static/img/roulette/chip-gray.7b10d0ad.png)
 }
 
 .chip.orange {
-    background-image: url(./img/roulette/chip-orange.99ba4753.png)
+    background-image: url(/static/img/roulette/chip-orange.99ba4753.png)
 }
 
 .chip span.title {
@@ -34678,14 +34710,14 @@ div.position {
 }
 
 .ro-wheel {
-    background: url(./img/roulette/wheel.a16cea2e.png);
+    background: url(/static/img/roulette/wheel.a16cea2e.png);
     background-size: cover;
     width: 350px;
     left: -175px
 }
 
 .ro-ball {
-    background: url(./img/roulette/ball.c961c6a5.png) no-repeat 100%;
+    background: url(/static/img/roulette/ball.c961c6a5.png) no-repeat 100%;
     background-size: contain;
     position: absolute;
     height: 20px;
@@ -34828,7 +34860,7 @@ div.position {
 }
 
 .ro-mobile .ro-rotate {
-    background: url(./img/roulette/rotate-mobile.a9b1ba45.png) no-repeat 50%;
+    background: url(/static/img/roulette/rotate-mobile.a9b1ba45.png) no-repeat 50%;
     display: block;
     height: 90px;
     margin: 0 auto
@@ -35065,11 +35097,11 @@ div.position {
 }
 
 .cy-bg {
-    background: #493152 url(./img/dark/caraycruz.346ad8ae.jpg) repeat top
+    background: #493152 url(/static/img/dark/caraycruz.346ad8ae.jpg) repeat top
 }
 
 .cy-title {
-    background: url(./img/caraycruz/title.7896c697.png) no-repeat center 85px
+    background: url(/static/img/caraycruz/title.7896c697.png) no-repeat center 85px
 }
 
 .cy .btn {
@@ -35369,7 +35401,7 @@ div.position {
 }
 
 .bj-table-bg {
-    background: url(./img/dark/table.1ee5111f.png) no-repeat top;
+    background: url(/static/img/dark/table.1ee5111f.png) no-repeat top;
     height: 370px;
     padding: 15px 100px 0;
     position: relative;
@@ -35382,7 +35414,7 @@ div.position {
 
 .modal-body .bj-table-wrapper {
     margin: 0 7px;
-    background: url(./img/dark/blackjack.ae3f582f.png) repeat;
+    background: url(/static/img/dark/blackjack.ae3f582f.png) repeat;
     padding-bottom: 7px;
     border-radius: 12px
 }
@@ -35421,7 +35453,7 @@ div.position {
 }
 
 .bj-hand {
-    background: url(./img/dark/hand.fda4d7d0.png) no-repeat top;
+    background: url(/static/img/dark/hand.fda4d7d0.png) no-repeat top;
     background-size: cover;
     border-radius: 12px;
     color: #fff;
@@ -35437,7 +35469,7 @@ div.position {
 }
 
 .bj-hand.bj-action {
-    background: url(./img/dark/hand_active.33c14dd7.png) no-repeat top;
+    background: url(/static/img/dark/hand_active.33c14dd7.png) no-repeat top;
     background-size: cover;
     transform: scale(1.1);
     z-index: 10;
@@ -35570,7 +35602,7 @@ div.position {
 
 .c-card {
     position: absolute;
-    background: url(./img/blackjack/cards.54d00b07.png) no-repeat;
+    background: url(/static/img/blackjack/cards.54d00b07.png) no-repeat;
     background-size: 744px;
     height: 75px;
     margin: 0 2px;
@@ -35711,7 +35743,7 @@ div.position {
 }
 
 .bj-bg {
-    background: url(./img/dark/blackjack.ae3f582f.png) repeat;
+    background: url(/static/img/dark/blackjack.ae3f582f.png) repeat;
     overflow: hidden
 }
 
@@ -35726,27 +35758,27 @@ div.position {
 }
 
 .bj-icon-double {
-    background-image: url(./img/double.764bfd1c.svg)
+    background-image: url(/static/img/double.764bfd1c.svg)
 }
 
 .bj-icon-split {
-    background-image: url(./img/split.56d8eee4.svg)
+    background-image: url(/static/img/split.56d8eee4.svg)
 }
 
 .bj-icon-hit {
-    background-image: url(./img/hit.4eb8b99f.svg)
+    background-image: url(/static/img/hit.4eb8b99f.svg)
 }
 
 .bj-icon-surrender {
-    background-image: url(./img/surrender.98eb25bc.svg)
+    background-image: url(/static/img/surrender.98eb25bc.svg)
 }
 
 .bj-icon-insurance {
-    background-image: url(./img/insurance.23179a60.svg)
+    background-image: url(/static/img/insurance.23179a60.svg)
 }
 
 .bj-icon-stand {
-    background-image: url(./img/stand.4f329b56.svg)
+    background-image: url(/static/img/stand.4f329b56.svg)
 }
 
 .bj-insurance .btn svg {
@@ -36151,7 +36183,7 @@ div.position {
 
 .dt-bg {
     background: linear-gradient(180deg, #17212c, #1f2b39 30%, #17212c 75%);
-    background: url(./img/dark/twist.7c352330.png) repeat top
+    background: url(/static/img/dark/twist.7c352330.png) repeat top
 }
 
 .dt .game-top {
@@ -36449,7 +36481,7 @@ div.position {
 }
 
 .bx-bg {
-    background: url(./img/dark/dice.6d65f4dd.png);
+    background: url(/static/img/dark/dice.6d65f4dd.png);
     background-size: cover
 }
 
@@ -36547,7 +36579,7 @@ div.position {
 .ke-no:before {
     opacity: 0;
     content: "";
-    background: url(./img/logo_icon.3da3455e.svg) no-repeat 50%;
+    background: url(/static/img/logo_icon.3da3455e.svg) no-repeat 50%;
     background-size: contain;
     width: 100%;
     height: 100%;
@@ -37128,7 +37160,7 @@ a.gh-id {
 }
 
 .cl-bg {
-    background: url(./img/dark/dice.6d65f4dd.png);
+    background: url(/static/img/dark/dice.6d65f4dd.png);
     background-size: cover
 }
 
@@ -37150,7 +37182,7 @@ a.gh-id {
 }
 
 .cl-visual {
-    background-image: url(./img/dark/bg.7e2065e3.png);
+    background-image: url(/static/img/dark/bg.7e2065e3.png);
     background-size: cover;
     border-radius: 6px;
     height: 250px;
@@ -37439,7 +37471,7 @@ a.gh-id {
 
 .vp-card .vp-card-back,
 .vp-card .vp-card-face {
-    background: url(./img/videopoker/cards.09ad0dc3.png) no-repeat
+    background: url(/static/img/videopoker/cards.09ad0dc3.png) no-repeat
 }
 
 .vp-card .vp-card-back {
@@ -37586,7 +37618,7 @@ a.gh-id {
 
 .vpf-card .vp-card-back,
 .vpf-card .vp-card-face {
-    background: url(./img/videopoker/cards.09ad0dc3.png) no-repeat
+    background: url(/static/img/videopoker/cards.09ad0dc3.png) no-repeat
 }
 
 .vpf-card .vp-card-back {
@@ -37847,7 +37879,7 @@ a.gh-id {
 }
 
 .vpf .predefined-bets {
-    background: url(./img/videopoker/betFieldFancy.48e8ea3d.png) no-repeat bottom !important;
+    background: url(/static/img/videopoker/betFieldFancy.48e8ea3d.png) no-repeat bottom !important;
     background-size: contain !important;
     height: 44px
 }
@@ -37883,7 +37915,7 @@ a.gh-id {
 }
 
 .vp-win-container {
-    background: url(./img/videopoker/winFieldFancy.3ad149d4.png) no-repeat bottom !important;
+    background: url(/static/img/videopoker/winFieldFancy.3ad149d4.png) no-repeat bottom !important;
     background-size: contain !important;
     height: 44px;
     -webkit-backface-visibility: hidden
@@ -37906,7 +37938,7 @@ a.gh-id {
 
 .vpf-controls .btn-play-wrapper {
     height: 45px;
-    background: url(./img/videopoker/betButtonFancy.9f68ca8a.png) no-repeat 50% !important;
+    background: url(/static/img/videopoker/betButtonFancy.9f68ca8a.png) no-repeat 50% !important;
     background-size: contain !important
 }
 
@@ -37936,7 +37968,7 @@ a.gh-id {
     }
 
     .vpf .predefined-bets {
-        background: url(./img/videopoker/betFieldFancyPortrait.bd43d184.png) no-repeat bottom !important;
+        background: url(/static/img/videopoker/betFieldFancyPortrait.bd43d184.png) no-repeat bottom !important;
         background-size: contain !important
     }
 
@@ -37956,12 +37988,12 @@ a.gh-id {
     }
 
     .vpf-controls .btn-play-wrapper {
-        background: url(./img/videopoker/betButtonFancyPortrait.2cef4957.png) no-repeat 50% !important;
+        background: url(/static/img/videopoker/betButtonFancyPortrait.2cef4957.png) no-repeat 50% !important;
         background-size: contain !important
     }
 
     .vp-win-container {
-        background: url(./img/videopoker/winFieldFancyPortrait.20c47f38.png) no-repeat bottom !important;
+        background: url(/static/img/videopoker/winFieldFancyPortrait.20c47f38.png) no-repeat bottom !important;
         background-size: contain !important;
         height: 44px;
         -webkit-backface-visibility: hidden
@@ -37981,7 +38013,7 @@ a.gh-id {
 }
 
 .vpf .vpf-game {
-    background: url(./img/videopoker/videopoker.eb75e6f2.jpg) no-repeat top;
+    background: url(/static/img/videopoker/videopoker.eb75e6f2.jpg) no-repeat top;
     background-size: cover;
     height: 740px;
     perspective: 700px;
@@ -37997,7 +38029,7 @@ a.gh-id {
     position: absolute;
     width: 100%;
     height: 740px;
-    background: url(./img/videopoker/monitor.5b293347.png) no-repeat 50%;
+    background: url(/static/img/videopoker/monitor.5b293347.png) no-repeat 50%;
     background-size: cover;
     pointer-events: none
 }
@@ -38015,14 +38047,14 @@ a.gh-id {
         position: absolute;
         width: 100%;
         height: 900px;
-        background: url(./img/videopoker/monitor_portrait.677e11ee.png) no-repeat center -100px;
+        background: url(/static/img/videopoker/monitor_portrait.677e11ee.png) no-repeat center -100px;
         background-size: 100% 100%;
         pointer-events: none
     }
 }
 
 .vp-bg {
-    background: url(./img/dark/blackjack.ae3f582f.png) repeat top
+    background: url(/static/img/dark/blackjack.ae3f582f.png) repeat top
 }
 
 .vp .game-bottom {
@@ -38055,7 +38087,7 @@ a.gh-id {
     position: absolute;
     top: 4px;
     right: 10px;
-    background: url(./img/videopoker/switchButton.dee93923.png) no-repeat 0 0;
+    background: url(/static/img/videopoker/switchButton.dee93923.png) no-repeat 0 0;
     background-size: contain;
     cursor: pointer;
     z-index: 1
@@ -38668,7 +38700,7 @@ a.gh-id {
 
 .metamask-icon {
     height: 87px;
-    background: url(./img/deposit/metamask_icon.2f8753c1.png) no-repeat 0 50%;
+    background: url(/static/img/deposit/metamask_icon.2f8753c1.png) no-repeat 0 50%;
     background-size: 70%
 }
 
@@ -38733,7 +38765,7 @@ a.gh-id {
 
 .deposit-welcome-bonus {
     display: block;
-    background: #000 url(./img/modal/deposit-bonus-bg.3a38ba60.png) 0 no-repeat;
+    background: #000 url(/static/img/modal/deposit-bonus-bg.3a38ba60.png) 0 no-repeat;
     background-size: cover;
     border-radius: 7px;
     padding: 8px;
@@ -38815,7 +38847,7 @@ a.gh-id {
 }
 
 .deposit .alert.alert-icon-info:before {
-    background-image: url(./img/alert/icon-primary_deposit.8987a627.png);
+    background-image: url(/static/img/alert/icon-primary_deposit.8987a627.png);
     background-size: auto 15px;
     width: 15px;
     left: 0;
@@ -39033,7 +39065,7 @@ span#tooltip-withdraw {
 }
 
 .tx-header {
-    background: url(./img/dark/dice.6d65f4dd.png);
+    background: url(/static/img/dark/dice.6d65f4dd.png);
     background-size: cover;
     margin: -14px -14px 0;
     padding: 7px 14px;
@@ -39302,7 +39334,7 @@ span#tooltip-withdraw {
 }
 
 .row.uw-header {
-    background: url(./img/dark/dice.6d65f4dd.png);
+    background: url(/static/img/dark/dice.6d65f4dd.png);
     background-size: cover;
     height: 155px
 }
@@ -39418,7 +39450,7 @@ span#tooltip-withdraw {
 
 .sh-s.link .icon {
     background-color: #0088a3;
-    background-image: url(./img/social/link.3917c358.png)
+    background-image: url(/static/img/social/link.3917c358.png)
 }
 
 .sh-colors .sh-s.facebook {
@@ -39427,7 +39459,7 @@ span#tooltip-withdraw {
 
 .sh-s.facebook .icon {
     background-color: #0068b5;
-    background-image: url(./img/social/facebook.3fded8b4.png)
+    background-image: url(/static/img/social/facebook.3fded8b4.png)
 }
 
 .sh-colors .sh-s.twitter {
@@ -39436,7 +39468,7 @@ span#tooltip-withdraw {
 
 .sh-s.twitter .icon {
     background-color: #00b1e0;
-    background-image: url(./img/social/twitter.4d04a092.png)
+    background-image: url(/static/img/social/twitter.4d04a092.png)
 }
 
 .sh-colors .sh-s.email {
@@ -39445,7 +39477,7 @@ span#tooltip-withdraw {
 
 .sh-s.email .icon {
     background-color: #cd2a37;
-    background-image: url(./img/social/email.e18f7b7d.png)
+    background-image: url(/static/img/social/email.e18f7b7d.png)
 }
 
 .sh-colors .sh-s.odnoklassniki {
@@ -39454,7 +39486,7 @@ span#tooltip-withdraw {
 
 .sh-s.odnoklassniki .icon {
     background-color: #f4561f;
-    background-image: url(./img/social/odnoklassniki.8ddcf6fd.png)
+    background-image: url(/static/img/social/odnoklassniki.8ddcf6fd.png)
 }
 
 .sh-colors .sh-s.vk {
@@ -39463,7 +39495,7 @@ span#tooltip-withdraw {
 
 .sh-s.vk .icon {
     background-color: #346489;
-    background-image: url(./img/social/vk.b502bec6.png)
+    background-image: url(/static/img/social/vk.b502bec6.png)
 }
 
 .sh-colors .sh-s.weibo {
@@ -39476,7 +39508,7 @@ span#tooltip-withdraw {
 
 .sh-s.weibo .icon {
     background-color: #e5e5e5;
-    background-image: url(./img/social/weibo.8c011f33.png)
+    background-image: url(/static/img/social/weibo.8c011f33.png)
 }
 
 .sh-colors .sh-s.whatsapp {
@@ -39485,7 +39517,7 @@ span#tooltip-withdraw {
 
 .sh-s.whatsapp .icon {
     background-color: #00bf49;
-    background-image: url(./img/social/whatsapp.d029fe04.png)
+    background-image: url(/static/img/social/whatsapp.d029fe04.png)
 }
 
 .sh-colors .sh-s.telegram {
@@ -39494,7 +39526,7 @@ span#tooltip-withdraw {
 
 .sh-s.telegram .icon {
     background-color: #0095c3;
-    background-image: url(./img/social/telegram.884ee3ac.png)
+    background-image: url(/static/img/social/telegram.884ee3ac.png)
 }
 
 .sh-colors .sh-s.line {
@@ -39503,7 +39535,7 @@ span#tooltip-withdraw {
 
 .sh-s.line .icon {
     background-color: #00a527;
-    background-image: url(./img/social/line.6e26d0f3.png)
+    background-image: url(/static/img/social/line.6e26d0f3.png)
 }
 
 .sh-colors .sh-s.viber {
@@ -39512,7 +39544,7 @@ span#tooltip-withdraw {
 
 .sh-s.viber .icon {
     background-color: #614280;
-    background-image: url(./img/social/viber.a4d5d3c2.png)
+    background-image: url(/static/img/social/viber.a4d5d3c2.png)
 }
 
 .sh-colors .sh-s.skype {
@@ -39521,7 +39553,7 @@ span#tooltip-withdraw {
 
 .sh-s.skype .icon {
     background-color: #00a1cd;
-    background-image: url(./img/social/skype.ca151aa6.png)
+    background-image: url(/static/img/social/skype.ca151aa6.png)
 }
 
 .sh-colors .sh-s.reddit {
@@ -39530,7 +39562,7 @@ span#tooltip-withdraw {
 
 .sh-s.reddit .icon {
     background-color: #e6381a;
-    background-image: url(./img/social/reddit.d562e34f.png)
+    background-image: url(/static/img/social/reddit.d562e34f.png)
 }
 
 .sh-colors .sh-s.linkedin {
@@ -39539,7 +39571,7 @@ span#tooltip-withdraw {
 
 .sh-s.linkedin .icon {
     background-color: #0077a7;
-    background-image: url(./img/social/linkedin.f5db6f85.png)
+    background-image: url(/static/img/social/linkedin.f5db6f85.png)
 }
 
 .sh-colors .sh-s.instagram {
@@ -39548,7 +39580,7 @@ span#tooltip-withdraw {
 
 .sh-s.instagram .icon {
     background-color: #ed593a;
-    background-image: url(./img/social/instagram.3676b7cb.png)
+    background-image: url(/static/img/social/instagram.3676b7cb.png)
 }
 
 @media(max-width:991.98px) {
@@ -39589,7 +39621,7 @@ span#tooltip-withdraw {
     margin: 0 auto;
     padding: 30px 20px 0;
     min-height: 272px;
-    background: url(./img/social/bg.816e8a95.png);
+    background: url(/static/img/social/bg.816e8a95.png);
     border-radius: 0 0 12px 12px
 }
 
@@ -39601,7 +39633,7 @@ span#tooltip-withdraw {
 
 @media(max-width:575.98px) {
     .sh-invite-bg {
-        background: url(./img/social/bg_mobile.d208f96d.png);
+        background: url(/static/img/social/bg_mobile.d208f96d.png);
         padding: 20px 20px 0;
         min-height: 420px
     }
@@ -39805,8 +39837,8 @@ span#tooltip-withdraw {
     padding: 7px
 }
 
-.af {
-    background: url(./img/dark/dice.6d65f4dd.png);
+.affiliate {
+    background: url(/static/img/dark/dice.6d65f4dd.png);
     background-size: cover;
     padding: 28px 0;
     min-height: calc(100vh - 400px)
@@ -39869,7 +39901,7 @@ span#tooltip-withdraw {
 }
 
 @media(max-width:575.98px) {
-    #game.af {
+    #game.affiliate {
         margin-bottom: 0
     }
 
@@ -39933,7 +39965,7 @@ span#tooltip-withdraw {
     user-select: none;
     position: relative;
     border-radius: 5px;
-    background: url(./img/mines/win.0ec26fb2.png) no-repeat 50%;
+    background: url(/static/img/mines/win.0ec26fb2.png) no-repeat 50%;
     background-size: contain;
     filter: brightness(30%)
 }
@@ -39947,7 +39979,7 @@ span#tooltip-withdraw {
 }
 
 .mines-no.mine {
-    background: url(./img/mines/mine.7235cb46.png) no-repeat 50%;
+    background: url(/static/img/mines/mine.7235cb46.png) no-repeat 50%;
     background-size: contain
 }
 
@@ -40007,7 +40039,7 @@ span#tooltip-withdraw {
 .vp-betinfo-card {
     min-width: 222px;
     height: 315px;
-    background: url(./img/videopoker/cards.09ad0dc3.png) no-repeat;
+    background: url(/static/img/videopoker/cards.09ad0dc3.png) no-repeat;
     transform-origin: 50% 50%;
     transform: scale(.4);
     margin: -62px !important
@@ -40101,7 +40133,7 @@ span#tooltip-withdraw {
 .up-betinfo-card {
     min-width: 222px;
     height: 315px;
-    background: url(./img/videopoker/cards.09ad0dc3.png) no-repeat;
+    background: url(/static/img/videopoker/cards.09ad0dc3.png) no-repeat;
     transform-origin: 50% 50%;
     transform: scale(.4);
     margin: -62px !important
@@ -40144,7 +40176,7 @@ span#tooltip-withdraw {
 
 .ro-modal {
     margin: 14px 7px 0;
-    background: url(./img/dark/roulette.7bf5cf7a.jpg);
+    background: url(/static/img/dark/roulette.7bf5cf7a.jpg);
     height: 261px;
     position: relative;
     border-radius: 12px;
@@ -40207,7 +40239,7 @@ span#tooltip-withdraw {
 .fro-modal {
     margin: 14px 7px 0;
     padding-top: 28px;
-    background: url(./img/dark/flash-roulette.44775f5c.png) 50% no-repeat;
+    background: url(/static/img/dark/flash-roulette.44775f5c.png) 50% no-repeat;
     background-size: 200%;
     background-position: bottom;
     height: 664px;
@@ -40228,32 +40260,32 @@ span#tooltip-withdraw {
 }
 
 .flo-modal-multipliers-item.green .flo-modal-multipliers-number {
-    background: url(./img/flashroulette/multiplier_BG_green_top.98834eba.png) 50% no-repeat;
+    background: url(/static/img/flashroulette/multiplier_BG_green_top.98834eba.png) 50% no-repeat;
     background-size: contain
 }
 
 .flo-modal-multipliers-item.green .flo-modal-multipliers-multiplier {
-    background: url(./img/flashroulette/multiplier_BG_green_bottom.6c9f5e26.png) 50% no-repeat;
+    background: url(/static/img/flashroulette/multiplier_BG_green_bottom.6c9f5e26.png) 50% no-repeat;
     background-size: contain
 }
 
 .flo-modal-multipliers-item.blue .flo-modal-multipliers-number {
-    background: url(./img/flashroulette/multiplier_BG_blue_top.7480cb40.png) 50% no-repeat;
+    background: url(/static/img/flashroulette/multiplier_BG_blue_top.7480cb40.png) 50% no-repeat;
     background-size: contain
 }
 
 .flo-modal-multipliers-item.blue .flo-modal-multipliers-multiplier {
-    background: url(./img/flashroulette/multiplier_BG_blue_bottom.60a3c3ef.png) 50% no-repeat;
+    background: url(/static/img/flashroulette/multiplier_BG_blue_bottom.60a3c3ef.png) 50% no-repeat;
     background-size: contain
 }
 
 .flo-modal-multipliers-item.red .flo-modal-multipliers-number {
-    background: url(./img/flashroulette/multiplier_BG_red_top.f34564ea.png) 50% no-repeat;
+    background: url(/static/img/flashroulette/multiplier_BG_red_top.f34564ea.png) 50% no-repeat;
     background-size: contain
 }
 
 .flo-modal-multipliers-item.red .flo-modal-multipliers-multiplier {
-    background: url(./img/flashroulette/multiplier_BG_red_bottom.64e03ce0.png) 50% no-repeat;
+    background: url(/static/img/flashroulette/multiplier_BG_red_bottom.64e03ce0.png) 50% no-repeat;
     background-size: contain
 }
 
@@ -40286,7 +40318,7 @@ span#tooltip-withdraw {
     padding-right: 28px;
     bottom: 14px;
     position: absolute;
-    background: url(./img/flashroulette/flashroulette_BG_table.0ec0b6dc.png) 50% no-repeat;
+    background: url(/static/img/flashroulette/flashroulette_BG_table.0ec0b6dc.png) 50% no-repeat;
     background-size: contain
 }
 
@@ -40748,23 +40780,23 @@ table.table-verifier td {
 }
 
 .chest-opened.bronze {
-    background-image: url(./img/opened/bronze.a4247d29.png)
+    background-image: url(/static/img/opened/bronze.a4247d29.png)
 }
 
 .chest-opened.silver {
-    background-image: url(./img/opened/silver.1fa1fe60.png)
+    background-image: url(/static/img/opened/silver.1fa1fe60.png)
 }
 
 .chest-opened.gold {
-    background-image: url(./img/opened/gold.d87c4e9b.png)
+    background-image: url(/static/img/opened/gold.d87c4e9b.png)
 }
 
 .chest-opened.platinum {
-    background-image: url(./img/opened/platinum.3e288a8d.png)
+    background-image: url(/static/img/opened/platinum.3e288a8d.png)
 }
 
 .chest-opened.diamond {
-    background-image: url(./img/opened/diamond.40a904ab.png)
+    background-image: url(/static/img/opened/diamond.40a904ab.png)
 }
 
 .bet-item .currency-bet {
@@ -41034,23 +41066,23 @@ table.table-verifier td {
 }
 
 .vip-chest-opened.bronze {
-    background-image: url(./img/opened/bronze.a4247d29.png)
+    background-image: url(/static/img/opened/bronze.a4247d29.png)
 }
 
 .vip-chest-opened.silver {
-    background-image: url(./img/opened/silver.1fa1fe60.png)
+    background-image: url(/static/img/opened/silver.1fa1fe60.png)
 }
 
 .vip-chest-opened.gold {
-    background-image: url(./img/opened/gold.d87c4e9b.png)
+    background-image: url(/static/img/opened/gold.d87c4e9b.png)
 }
 
 .vip-chest-opened.platinum {
-    background-image: url(./img/opened/platinum.3e288a8d.png)
+    background-image: url(/static/img/opened/platinum.3e288a8d.png)
 }
 
 .vip-chest-opened.diamond {
-    background-image: url(./img/opened/diamond.40a904ab.png)
+    background-image: url(/static/img/opened/diamond.40a904ab.png)
 }
 
 #chest-modal .vip-chest-opened {
@@ -41327,7 +41359,7 @@ a.next {
 }
 
 .bb-wrapper {
-    background-image: url(./img/dark/bg.bb748f9c.png);
+    background-image: url(/static/img/dark/bg.bb748f9c.png);
     background-repeat: no-repeat;
     border: 5px solid #263340;
     color: #fff;
@@ -41370,7 +41402,7 @@ a.next {
 }
 
 .bb-no {
-    background: url(./img/billion/no.8e46e2b9.png) 50% no-repeat;
+    background: url(/static/img/billion/no.8e46e2b9.png) 50% no-repeat;
     display: inline-block;
     height: 102px;
     width: 62px;
@@ -41382,52 +41414,52 @@ a.next {
 }
 
 .bb-no-0 {
-    background-image: url(./img/billion/0.aff31966.png);
+    background-image: url(/static/img/billion/0.aff31966.png);
     width: 69px
 }
 
 .bb-no-1 {
-    background-image: url(./img/billion/1.b48191c7.png);
+    background-image: url(/static/img/billion/1.b48191c7.png);
     width: 53px
 }
 
 .bb-no-2 {
-    background-image: url(./img/billion/2.a10f3d7d.png);
+    background-image: url(/static/img/billion/2.a10f3d7d.png);
     width: 65px
 }
 
 .bb-no-3 {
-    background-image: url(./img/billion/3.d9e0f319.png);
+    background-image: url(/static/img/billion/3.d9e0f319.png);
     width: 67px
 }
 
 .bb-no-4 {
-    background-image: url(./img/billion/4.0c8d1c95.png);
+    background-image: url(/static/img/billion/4.0c8d1c95.png);
     width: 69px
 }
 
 .bb-no-5 {
-    background-image: url(./img/billion/5.ef6e2bdc.png);
+    background-image: url(/static/img/billion/5.ef6e2bdc.png);
     width: 65px
 }
 
 .bb-no-6 {
-    background-image: url(./img/billion/6.b806805f.png);
+    background-image: url(/static/img/billion/6.b806805f.png);
     width: 67px
 }
 
 .bb-no-7 {
-    background-image: url(./img/billion/7.6a4957bf.png);
+    background-image: url(/static/img/billion/7.6a4957bf.png);
     width: 59px
 }
 
 .bb-no-8 {
-    background-image: url(./img/billion/8.31103566.png);
+    background-image: url(/static/img/billion/8.31103566.png);
     width: 70px
 }
 
 .bb-no-9 {
-    background-image: url(./img/billion/9.b417d0f1.png);
+    background-image: url(/static/img/billion/9.b417d0f1.png);
     width: 68px
 }
 
@@ -41445,7 +41477,7 @@ a.next {
 }
 
 .bb-info h4 {
-    background: url(./img/billion/subheader.f1aaf488.png) bottom no-repeat;
+    background: url(/static/img/billion/subheader.f1aaf488.png) bottom no-repeat;
     padding: 2px 0;
     font-family: PassionOne, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
     font-size: 24px;
@@ -41680,7 +41712,7 @@ a.next {
 }
 
 .lo-anim-bg {
-    background: url(./img/dark/bg_lottery.3e1af98c.png) no-repeat top;
+    background: url(/static/img/dark/bg_lottery.3e1af98c.png) no-repeat top;
     background-size: contain;
     padding: 30.84% 0 0;
     box-sizing: border-box;
@@ -41694,7 +41726,7 @@ a.next {
 }
 
 .lo-anim-bg.countdown {
-    background-image: url(./img/dark/bg_countdown.f625c5cc.png)
+    background-image: url(/static/img/dark/bg_countdown.f625c5cc.png)
 }
 
 .lo-anim-bg.countdown>div {
@@ -41860,7 +41892,7 @@ a.next {
 }
 
 .ds-stars {
-    background: url(./img/dicey/stars.59f66e12.png) repeat top;
+    background: url(/static/img/dicey/stars.59f66e12.png) repeat top;
     will-change: transform;
     width: 100%;
     height: 100%;
@@ -41894,7 +41926,7 @@ a.next {
 }
 
 .ds-twinkling {
-    background: transparent url(./img/dicey/twinkling.71dc1853.png) repeat top;
+    background: transparent url(/static/img/dicey/twinkling.71dc1853.png) repeat top;
     will-change: transform;
     width: 100%;
     height: 100%;
@@ -41940,19 +41972,19 @@ a.next {
 }
 
 .ds-bg-top {
-    background: url(./img/dicey/bg_top.ed1a474d.png) no-repeat bottom;
+    background: url(/static/img/dicey/bg_top.ed1a474d.png) no-repeat bottom;
     width: 100%;
     height: 451px
 }
 
 .ds-bg-middle {
-    background: url(./img/dicey/bg_middle.bcd7c599.png) repeat-y top;
+    background: url(/static/img/dicey/bg_middle.bcd7c599.png) repeat-y top;
     width: 100%;
     height: calc(100% - 797px)
 }
 
 .ds-bg-bottom {
-    background: url(./img/dicey/bg_bottom.a64200a5.png) no-repeat top;
+    background: url(/static/img/dicey/bg_bottom.a64200a5.png) no-repeat top;
     width: 100%;
     height: 346px
 }
@@ -42006,7 +42038,7 @@ a.next {
 }
 
 .ds-logo {
-    background: url(./img/dicey/logo.2ba5be1f.png) no-repeat 50%;
+    background: url(/static/img/dicey/logo.2ba5be1f.png) no-repeat 50%;
     background-size: contain;
     margin: 14px 21px 0 22px;
     width: 175px;
@@ -42018,7 +42050,7 @@ a.next {
 }
 
 .ds-jp-box {
-    background: url(./img/dicey/jp1.2236cd0b.png) no-repeat top;
+    background: url(/static/img/dicey/jp1.2236cd0b.png) no-repeat top;
     background-size: contain;
     width: 425px;
     height: 180px;
@@ -42030,7 +42062,7 @@ a.next {
 }
 
 .ds-jp-box.fiat {
-    background-image: url(./img/dicey/jp2.d49fbbf6.png);
+    background-image: url(/static/img/dicey/jp2.d49fbbf6.png);
     position: relative
 }
 
@@ -42038,7 +42070,7 @@ a.next {
     content: "";
     width: 365px;
     height: 111px;
-    background: url(./img/dicey/jpeffect.c367c40a.png) no-repeat top;
+    background: url(/static/img/dicey/jpeffect.c367c40a.png) no-repeat top;
     position: absolute;
     top: 41px;
     left: 29px;
@@ -42131,100 +42163,100 @@ a.next {
 }
 
 .ds-bet div.beur {
-    background-image: url(./img/blue/eur.e2420422.png)
+    background-image: url(/static/img/blue/eur.e2420422.png)
 }
 
 .ds-bet div.busd {
-    background-image: url(./img/blue/usd.f400bc4f.png)
+    background-image: url(/static/img/blue/usd.f400bc4f.png)
 }
 
 .ds-jp-box.fiat .ds-bet div.bcomma {
     background-size: 50%;
     background-position: bottom;
-    background-image: url(./img/blue/comma.40f8ab05.png);
+    background-image: url(/static/img/blue/comma.40f8ab05.png);
     margin: 0 -12px -15px
 }
 
 .ds-bet div.b0 {
-    background-image: url(./img/blue/0.61316815.png)
+    background-image: url(/static/img/blue/0.61316815.png)
 }
 
 .ds-bet div.b1 {
-    background-image: url(./img/blue/1.dc7b8407.png)
+    background-image: url(/static/img/blue/1.dc7b8407.png)
 }
 
 .ds-bet div.b2 {
-    background-image: url(./img/blue/2.98a32c73.png)
+    background-image: url(/static/img/blue/2.98a32c73.png)
 }
 
 .ds-bet div.b3 {
-    background-image: url(./img/blue/3.40cd2cb4.png)
+    background-image: url(/static/img/blue/3.40cd2cb4.png)
 }
 
 .ds-bet div.b4 {
-    background-image: url(./img/blue/4.ee05955c.png)
+    background-image: url(/static/img/blue/4.ee05955c.png)
 }
 
 .ds-bet div.b5 {
-    background-image: url(./img/blue/5.f912f351.png)
+    background-image: url(/static/img/blue/5.f912f351.png)
 }
 
 .ds-bet div.b6 {
-    background-image: url(./img/blue/6.36e76a15.png)
+    background-image: url(/static/img/blue/6.36e76a15.png)
 }
 
 .ds-bet div.b7 {
-    background-image: url(./img/blue/7.237c1b88.png);
+    background-image: url(/static/img/blue/7.237c1b88.png);
     position: relative
 }
 
 .ds-bet div.b8 {
-    background-image: url(./img/blue/8.d62dda19.png)
+    background-image: url(/static/img/blue/8.d62dda19.png)
 }
 
 .ds-bet div.b9 {
-    background-image: url(./img/blue/9.3b86dee7.png)
+    background-image: url(/static/img/blue/9.3b86dee7.png)
 }
 
 .ds-bet div.o0 {
-    background-image: url(./img/orange/0.9bd8884a.png)
+    background-image: url(/static/img/orange/0.9bd8884a.png)
 }
 
 .ds-bet div.o1 {
-    background-image: url(./img/orange/1.ff4b3600.png)
+    background-image: url(/static/img/orange/1.ff4b3600.png)
 }
 
 .ds-bet div.o2 {
-    background-image: url(./img/orange/2.680154bf.png)
+    background-image: url(/static/img/orange/2.680154bf.png)
 }
 
 .ds-bet div.o3 {
-    background-image: url(./img/orange/3.1608df2d.png)
+    background-image: url(/static/img/orange/3.1608df2d.png)
 }
 
 .ds-bet div.o4 {
-    background-image: url(./img/orange/4.e237b9ce.png)
+    background-image: url(/static/img/orange/4.e237b9ce.png)
 }
 
 .ds-bet div.o5 {
-    background-image: url(./img/orange/5.fb3a2987.png)
+    background-image: url(/static/img/orange/5.fb3a2987.png)
 }
 
 .ds-bet div.o6 {
-    background-image: url(./img/orange/6.800d2e58.png)
+    background-image: url(/static/img/orange/6.800d2e58.png)
 }
 
 .ds-bet div.o7 {
-    background-image: url(./img/orange/7.fe69628a.png);
+    background-image: url(/static/img/orange/7.fe69628a.png);
     position: relative
 }
 
 .ds-bet div.o8 {
-    background-image: url(./img/orange/8.d60d2bc8.png)
+    background-image: url(/static/img/orange/8.d60d2bc8.png)
 }
 
 .ds-bet div.o9 {
-    background-image: url(./img/orange/9.14a993df.png)
+    background-image: url(/static/img/orange/9.14a993df.png)
 }
 
 .ds-bet div span {
@@ -42237,7 +42269,7 @@ a.next {
     content: "";
     width: 120%;
     height: 120%;
-    background: url(./img/7effect/seven36.3730a2a1.png) no-repeat 50%;
+    background: url(/static/img/7effect/seven36.3730a2a1.png) no-repeat 50%;
     background-size: contain;
     top: -10%;
     left: -15.2%
@@ -42250,7 +42282,7 @@ a.next {
 }
 
 .ds .pixi-container-wrapper {
-    background: url(./img/dicey/reel.eee30a99.png) no-repeat top;
+    background: url(/static/img/dicey/reel.eee30a99.png) no-repeat top;
     background-size: contain;
     padding: 22.566% 0 0;
     width: 100%;
@@ -42758,7 +42790,7 @@ a.next {
 }
 
 .pi-bg {
-    background: url(./img/dark/plinko.2212211b.png) repeat top
+    background: url(/static/img/dark/plinko.2212211b.png) repeat top
 }
 
 .pi .game-top {
@@ -42850,17 +42882,17 @@ a.next {
 }
 
 .sl-bg.fruitsler {
-    background: url(./img/dark/fruitsler.5078122a.png) no-repeat 50%;
+    background: url(/static/img/dark/fruitsler.5078122a.png) no-repeat 50%;
     background-size: cover
 }
 
 .sl-bg.cryptothugs {
-    background: url(./img/dark/crypto-thugs.18344cd3.jpg) no-repeat 50%;
+    background: url(/static/img/dark/crypto-thugs.18344cd3.jpg) no-repeat 50%;
     background-size: cover
 }
 
 .sl-bg.cryptothugs.fs {
-    background: url(./img/dark/crypto-thugs-fs.80192c1c.jpg) no-repeat 50%;
+    background: url(/static/img/dark/crypto-thugs-fs.80192c1c.jpg) no-repeat 50%;
     background-size: cover
 }
 
@@ -42884,7 +42916,7 @@ a.next {
 }
 
 .lr-bg {
-    background: url(./img/dark/flash-roulette.44775f5c.png) no-repeat 50%;
+    background: url(/static/img/dark/flash-roulette.44775f5c.png) no-repeat 50%;
     background-size: cover
 }
 
@@ -42939,7 +42971,7 @@ a.next {
 }
 
 .bacc-bg {
-    background: url(./img/dark/blackjack.ae3f582f.png) repeat
+    background: url(/static/img/dark/blackjack.ae3f582f.png) repeat
 }
 
 .bacc .game-top {
@@ -43011,7 +43043,7 @@ a.next {
 }
 
 .hilo-bg {
-    background: url(./img/dark/blackjack.ae3f582f.png) repeat
+    background: url(/static/img/dark/blackjack.ae3f582f.png) repeat
 }
 
 .hilo .game-top {
@@ -43302,7 +43334,7 @@ a.next {
 }
 
 .mines-bg {
-    background: url(./img/dark/plinko.2212211b.png) repeat top
+    background: url(/static/img/dark/plinko.2212211b.png) repeat top
 }
 
 .mines .game-top {
@@ -43577,7 +43609,7 @@ div.blast2-controls {
 }
 
 .blast2-bg {
-    background: url(./img/dark/dice.6d65f4dd.png) repeat top
+    background: url(/static/img/dark/dice.6d65f4dd.png) repeat top
 }
 
 .blast2 .game-top {
@@ -43794,7 +43826,7 @@ div#app {
 }
 
 .chests-bg {
-    background: url(./img/dark/blackjack.ae3f582f.png) repeat
+    background: url(/static/img/dark/blackjack.ae3f582f.png) repeat
 }
 
 .chests .game-top {
@@ -44127,7 +44159,7 @@ div#app {
 
 .up-card .up-card-back,
 .up-card .up-card-face {
-    background: url(./img/videopoker/cards.09ad0dc3.png) no-repeat;
+    background: url(/static/img/videopoker/cards.09ad0dc3.png) no-repeat;
     background-size: 1400%
 }
 
@@ -44339,7 +44371,7 @@ div#app {
 }
 
 .paytables-portrait-button {
-    background: url(./img/ultimatepoker/paytables_button.53389aea.png) no-repeat 50% 20%;
+    background: url(/static/img/ultimatepoker/paytables_button.53389aea.png) no-repeat 50% 20%;
     background-size: 50%
 }
 
@@ -44409,7 +44441,7 @@ div#app {
 }
 
 .up-bg {
-    background: url(./img/dark/ultimatepoker.95a2b9af.png) repeat top
+    background: url(/static/img/dark/ultimatepoker.95a2b9af.png) repeat top
 }
 
 .up-bg .game-wrapper {
@@ -44838,43 +44870,43 @@ div#app {
 }
 
 .vip-key.bronze span {
-    background-image: url(./img/dark/bronze.9038d51b.png)
+    background-image: url(/static/img/dark/bronze.9038d51b.png)
 }
 
 .vip-key.active.bronze {
-    background-image: url(./img/keys/bronze.82e659cc.png)
+    background-image: url(/static/img/keys/bronze.82e659cc.png)
 }
 
 .vip-key.silver span {
-    background-image: url(./img/dark/silver.fe1b8885.png)
+    background-image: url(/static/img/dark/silver.fe1b8885.png)
 }
 
 .vip-key.active.silver {
-    background-image: url(./img/keys/silver.e1635245.png)
+    background-image: url(/static/img/keys/silver.e1635245.png)
 }
 
 .vip-key.gold span {
-    background-image: url(./img/dark/gold.fc40fff1.png)
+    background-image: url(/static/img/dark/gold.fc40fff1.png)
 }
 
 .vip-key.active.gold {
-    background-image: url(./img/keys/gold.4d6247e8.png)
+    background-image: url(/static/img/keys/gold.4d6247e8.png)
 }
 
 .vip-key.platinum span {
-    background-image: url(./img/dark/platinum.8f2b0e78.png)
+    background-image: url(/static/img/dark/platinum.8f2b0e78.png)
 }
 
 .vip-key.active.platinum {
-    background-image: url(./img/keys/platinum.e392d259.png)
+    background-image: url(/static/img/keys/platinum.e392d259.png)
 }
 
 .vip-key.diamond span {
-    background-image: url(./img/dark/diamond.44047a5b.png)
+    background-image: url(/static/img/dark/diamond.44047a5b.png)
 }
 
 .vip-key.active.diamond {
-    background-image: url(./img/keys/diamond.5d2c60c9.png)
+    background-image: url(/static/img/keys/diamond.5d2c60c9.png)
 }
 
 .rb-percentage:after,
@@ -44887,7 +44919,7 @@ div#app {
     width: calc(100% + 21px);
     max-width: 121px;
     height: 2px;
-    background-image: url(./img/dark/inactive.43cdec34.png);
+    background-image: url(/static/img/dark/inactive.43cdec34.png);
     background-size: contain
 }
 
@@ -44898,38 +44930,38 @@ div#app {
 }
 
 .vip-chest .vip-key.active.bronze:after {
-    background-image: url(./img/dark/bronze.af4e3a60.png)
+    background-image: url(/static/img/dark/bronze.af4e3a60.png)
 }
 
 .vip-chest .vip-key.active.silver:after {
-    background-image: url(./img/dark/silver.338bd610.png)
+    background-image: url(/static/img/dark/silver.338bd610.png)
 }
 
 .rb-percentage.gold:after,
 .vip-chest .vip-key.active.gold:after {
-    background-image: url(./img/dark/gold.cae3b956.png)
+    background-image: url(/static/img/dark/gold.cae3b956.png)
 }
 
 .rb-percentage.platinum:after,
 .vip-chest .vip-key.active.platinum:after {
-    background-image: url(./img/dark/platinum.2572d1a1.png)
+    background-image: url(/static/img/dark/platinum.2572d1a1.png)
 }
 
 .rb-percentage.diamond:after,
 .vip-chest .vip-key.active.diamond:after {
-    background-image: url(./img/dark/diamond.7e775af4.png)
+    background-image: url(/static/img/dark/diamond.7e775af4.png)
 }
 
 .rb-percentage.black_diamond:after {
-    background-image: url(./img/dark/black_diamond.cb0ec78b.png)
+    background-image: url(/static/img/dark/black_diamond.cb0ec78b.png)
 }
 
 .rb-percentage.diamond_master:after {
-    background-image: url(./img/dark/diamond_master.0dada05e.png)
+    background-image: url(/static/img/dark/diamond_master.0dada05e.png)
 }
 
 .rb-percentage.diamond_legend:after {
-    background-image: url(./img/dark/diamond_legend.9403783b.png)
+    background-image: url(/static/img/dark/diamond_legend.9403783b.png)
 }
 
 .vip-chests-stats {
@@ -44951,13 +44983,13 @@ div#app {
 }
 
 .vip-chest .closed {
-    background: url(./img/closed/bg_dark.544010bf.png) no-repeat 50%;
+    background: url(/static/img/closed/bg_dark.544010bf.png) no-repeat 50%;
     margin: 3px auto;
     width: 100px
 }
 
 .vip-chest .open {
-    background: url(./img/open/bg_dark.c2b51acd.png) no-repeat 50%;
+    background: url(/static/img/open/bg_dark.c2b51acd.png) no-repeat 50%;
     height: 111px;
     margin: 0 auto;
     width: 100px
@@ -44996,43 +45028,43 @@ div#app {
 }
 
 .vip-chest.bronze .closed.active {
-    background-image: url(./img/closed/bronze.78ccd33e.png)
+    background-image: url(/static/img/closed/bronze.78ccd33e.png)
 }
 
 .vip-chest.silver .closed.active {
-    background-image: url(./img/closed/silver.81b9818d.png)
+    background-image: url(/static/img/closed/silver.81b9818d.png)
 }
 
 .vip-chest.gold .closed.active {
-    background-image: url(./img/closed/gold.0585939e.png)
+    background-image: url(/static/img/closed/gold.0585939e.png)
 }
 
 .vip-chest.platinum .closed.active {
-    background-image: url(./img/closed/platinum.59f5d022.png)
+    background-image: url(/static/img/closed/platinum.59f5d022.png)
 }
 
 .vip-chest.diamond .closed.active {
-    background-image: url(./img/closed/diamond.05f50af1.png)
+    background-image: url(/static/img/closed/diamond.05f50af1.png)
 }
 
 .vip-chest.bronze .open.active {
-    background-image: url(./img/open/bronze.0c3bc79d.png)
+    background-image: url(/static/img/open/bronze.0c3bc79d.png)
 }
 
 .vip-chest.silver .open.active {
-    background-image: url(./img/open/silver.b26e31da.png)
+    background-image: url(/static/img/open/silver.b26e31da.png)
 }
 
 .vip-chest.gold .open.active {
-    background-image: url(./img/open/gold.1f7dd8dc.png)
+    background-image: url(/static/img/open/gold.1f7dd8dc.png)
 }
 
 .vip-chest.platinum .open.active {
-    background-image: url(./img/open/platinum.3d4ac4ec.png)
+    background-image: url(/static/img/open/platinum.3d4ac4ec.png)
 }
 
 .vip-chest.diamond .open.active {
-    background-image: url(./img/open/diamond.e2586dd0.png)
+    background-image: url(/static/img/open/diamond.e2586dd0.png)
 }
 
 .vip-chest-details h4 {
@@ -45406,39 +45438,39 @@ div#app {
 }
 
 .vip-levels .vip-rank-icon.inactive.iron {
-    background-image: url(./img/dark/iron.0d0294a3.png)
+    background-image: url(/static/img/dark/iron.0d0294a3.png)
 }
 
 .vip-levels .vip-rank-icon.inactive.bronze {
-    background-image: url(./img/dark/bronze.42c3818f.png)
+    background-image: url(/static/img/dark/bronze.42c3818f.png)
 }
 
 .vip-levels .vip-rank-icon.inactive.silver {
-    background-image: url(./img/dark/silver.4ed54a39.png)
+    background-image: url(/static/img/dark/silver.4ed54a39.png)
 }
 
 .vip-levels .vip-rank-icon.inactive.gold {
-    background-image: url(./img/dark/gold.1fd517c6.png)
+    background-image: url(/static/img/dark/gold.1fd517c6.png)
 }
 
 .vip-levels .vip-rank-icon.inactive.platinum {
-    background-image: url(./img/dark/platinum.8bc2c974.png)
+    background-image: url(/static/img/dark/platinum.8bc2c974.png)
 }
 
 .vip-levels .vip-rank-icon.inactive.diamond {
-    background-image: url(./img/dark/diamond.c381956f.png)
+    background-image: url(/static/img/dark/diamond.c381956f.png)
 }
 
 .vip-levels .vip-rank-icon.inactive.black_diamond {
-    background-image: url(./img/dark/black_diamond.1d481cad.png)
+    background-image: url(/static/img/dark/black_diamond.1d481cad.png)
 }
 
 .vip-levels .vip-rank-icon.inactive.diamond_master {
-    background-image: url(./img/dark/diamond_master.660b9c91.png)
+    background-image: url(/static/img/dark/diamond_master.660b9c91.png)
 }
 
 .vip-levels .vip-rank-icon.inactive.diamond_legend {
-    background-image: url(./img/dark/diamond_legend.c00d20e6.png)
+    background-image: url(/static/img/dark/diamond_legend.c00d20e6.png)
 }
 
 .vip-levels .vip-rank {
@@ -45811,7 +45843,7 @@ h3.rakeback_promo-subtitle {
     height: 170px;
     padding: 0 42px;
     margin: 0 auto;
-    background-image: url(./img/sliders/welcome-bonus.ace05fb3.jpg);
+    background-image: url(/static/img/sliders/welcome-bonus.ace05fb3.jpg);
     background-size: 100% 100%;
     display: flex;
     flex-direction: column;
@@ -45851,7 +45883,7 @@ h3.rakeback_promo-subtitle {
     margin: 0 auto;
     display: block;
     margin-bottom: 14px;
-    background-image: url(./img/bonus_icon.d4617924.svg);
+    background-image: url(/static/img/bonus_icon.d4617924.svg);
     background-size: 100% 100%
 }
 
@@ -45883,15 +45915,15 @@ h3.rakeback_promo-subtitle {
 }
 
 .vip-bonus-progress-icon.bonus_chest {
-    background-image: url(./img/bonus_chest.3becb9a2.svg)
+    background-image: url(/static/img/bonus_chest.3becb9a2.svg)
 }
 
 .vip-bonus-progress-icon.bonus_key {
-    background-image: url(./img/bonus_key_active.a4370da8.svg)
+    background-image: url(/static/img/bonus_key_active.a4370da8.svg)
 }
 
 .inactive .vip-bonus-progress-icon.bonus_key {
-    background-image: url(./img/bonus_key_inactive.c26dfef0.svg)
+    background-image: url(/static/img/bonus_key_inactive.c26dfef0.svg)
 }
 
 .vip-bonus-progress-deposit {
@@ -45936,7 +45968,7 @@ h3.rakeback_promo-subtitle {
 @media screen and (max-width:991px) {
     .vip-bonus-banner {
         width: 100%;
-        background-image: url(./img/575/bonus_banner.6ebfc5b1.jpg)
+        background-image: url(/static/img/575/bonus_banner.6ebfc5b1.jpg)
     }
 
     .vip-bonus-wrapper {
@@ -46021,62 +46053,62 @@ h3.rakeback_promo-subtitle {
 }
 
 .vip-reward.billion {
-    background-image: url(./img/vip/billion.076e1a82.png)
+    background-image: url(/static/img/vip/billion.076e1a82.png)
 }
 
 .vip-reward.rain {
-    background-image: url(./img/vip/rain.29e7b9bc.png)
+    background-image: url(/static/img/vip/rain.29e7b9bc.png)
 }
 
 .vip-reward.lottery {
-    background-image: url(./img/vip/lottery.7326af2c.png);
+    background-image: url(/static/img/vip/lottery.7326af2c.png);
     background-size: auto
 }
 
 .vip-reward.lock {
-    background-image: url(./img/vip/lock.996f7a97.png)
+    background-image: url(/static/img/vip/lock.996f7a97.png)
 }
 
 .vip-reward.boost {
-    background-image: url(./img/vip/boost.1acb1a72.png)
+    background-image: url(/static/img/vip/boost.1acb1a72.png)
 }
 
 .vip-reward.nitro {
-    background-image: url(./img/vip/nitro.0e56de8e.png)
+    background-image: url(/static/img/vip/nitro.0e56de8e.png)
 }
 
 .vip-reward.emoji {
-    background-image: url(./img/vip/emoji.837212e4.png)
+    background-image: url(/static/img/vip/emoji.837212e4.png)
 }
 
 .vip-reward.chat {
-    background-image: url(./img/vip/chat.c9658cbe.png);
+    background-image: url(/static/img/vip/chat.c9658cbe.png);
     width: 40px;
     background-position: 50%
 }
 
 .vip-reward.rakeback.gold {
-    background-image: url(./img/dark/gold.45f5311b.png)
+    background-image: url(/static/img/dark/gold.45f5311b.png)
 }
 
 .vip-reward.rakeback.platinum {
-    background-image: url(./img/dark/platinum.aa8b9b61.png)
+    background-image: url(/static/img/dark/platinum.aa8b9b61.png)
 }
 
 .vip-reward.rakeback.diamond {
-    background-image: url(./img/dark/diamond.1421d093.png)
+    background-image: url(/static/img/dark/diamond.1421d093.png)
 }
 
 .vip-reward.rakeback.black_diamond {
-    background-image: url(./img/dark/black_diamond.1bfb0f3f.png)
+    background-image: url(/static/img/dark/black_diamond.1bfb0f3f.png)
 }
 
 .vip-reward.rakeback.diamond_master {
-    background-image: url(./img/dark/diamond_master.de76501f.png)
+    background-image: url(/static/img/dark/diamond_master.de76501f.png)
 }
 
 .vip-reward.rakeback.diamond_legend {
-    background-image: url(./img/dark/diamond_legend.1d9157bc.png)
+    background-image: url(/static/img/dark/diamond_legend.1d9157bc.png)
 }
 
 .evoplay-tournament-modal .modal-body {
@@ -46095,6 +46127,16 @@ h3.rakeback_promo-subtitle {
 }
 
 .evoplay-promo-slider {
+    background: #263340;
+    padding: 14px 28px
+}
+
+.smartsoft-promo-modal .modal-body {
+    padding: 0;
+    padding-top: 14px
+}
+
+.smartsoft-promo-slider {
     background: #263340;
     padding: 14px 28px
 }

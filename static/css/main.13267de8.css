@@ -112,7 +112,7 @@
 }
 
 .nab-logo-image {
-    background-image: url("../../static/img/logo_white.9702d1c0.svg");
+    background-image: url("../img/icons/drops-and-wins-badge.b13e71b1.png");
     background-repeat: no-repeat;
     background-size: auto 40px;
     background-position: 1px;
@@ -600,13 +600,13 @@
 }
 
 .na-logo {
-    background-image: url("../img/flags/de.5dafe3e3.png");
+    background-image:url("https://i.ibb.co/BKXxDL8/Transparent-Backgreound-2-D.png");
     background-repeat: no-repeat;
     background-size: auto 38px;
     display: block;
     height: 38px;
-    width: 135px;
-    margin: 0 0 0 14px;
+    width:200px;
+    margin: 0 0 0 70px;
     padding: 0
 }
 
@@ -1122,11 +1122,12 @@
 .ns-nav li a,
 .ns-nav li h3 {
     display: block;
+    color:fff;
     font-size: 1.08rem;
     line-height: 1.2;
     margin: 0;
     padding: 10px;
-    width: 100%
+    width: 100%;
 }
 
 .ns-nav li a h3 {
@@ -1171,6 +1172,7 @@
 
 .ns .fo-res-link span.fo-res-header {
     font-size: 14px
+    
 }
 
 .ns-nav #ns_esports_promos li a,
@@ -5866,7 +5868,13 @@ input[type=submit].btn-block {
 }
 
 .dropdown-toggle {
-    white-space: nowrap
+    white-space: nowrap;
+    
+}
+.fontsizedropdown{
+    font-size:20px;
+    font-weight: bolder;
+    color: #fff !important;;
 }
 
 .dropdown-toggle:after {
@@ -22109,11 +22117,11 @@ div#fasttrack-crm .close-btn:before {
 
 .fo-res-ga span,
 .fo-res-gt span {
-    display: none
+    /* display: none */
 }
 
 .fo-res-ga {
-    background: url(/static/img/dark/begambleaware.8549ede7.png);
+    background: url("./img/dark/begambleaware.8549ede7.png");
     height: 20px;
     margin: 9px 10px 9px 0;
     width: 198px
@@ -22146,7 +22154,7 @@ a.fo-res-link {
 
 .fo-res-link .fo-res-18p {
     margin: 0 8px 0 10px;
-    background: url(/static/img/dark/18p.97a4a2a4.png) no-repeat 0;
+    background: url("https://www.bitsler.com/static/img/dark/18p.97a4a2a4.png") no-repeat 0;
     height: 40px;
     width: 40px;
     opacity: .2
@@ -22167,7 +22175,7 @@ a.fo-res-link {
 
 .fo-res-link span.fo-res-header {
     font-size: 17px;
-    border-top: none
+    border-top: none;
 }
 
 @media(max-width:767.98px) {
@@ -22661,7 +22669,7 @@ a.fo-res-link {
 
 .swiper-outer {
     margin: 0 -7px;
-    background: url(/static/img/dark/dice.6d65f4dd.png);
+    background: url("../../static/img//dark/dice.6d65f4dd.png");
     background-size: cover;
     padding: 42px 0 0;
     z-index: -1
@@ -22682,7 +22690,7 @@ a.fo-res-link {
 }
 
 .swiper-slide {
-    width: 80%;
+    /* width: 80%; */
     max-width: 1200px;
     border-radius: 18px;
     overflow: hidden
@@ -22765,119 +22773,119 @@ a.fo-res-link {
 }
 
 .swiper-slide-inside.vip {
-    background-image: url(/static/img/sliders/vip.6680a453.png)
+    background-image: url("https://www.bitsler.com/static/img/sliders/vip.6680a453.png");
 }
 
 .swiper-slide-inside.btslr {
-    background-image: url(/static/img/sliders/btslr.d93b9e6b.png)
+    background-image: url("https://www.bitsler.com/static/img/sliders/btslr.d93b9e6b.png")
 }
 
 .swiper-slide-inside.lottery {
-    background-image: url(/static/img/sliders/lottery.9a53dd8d.png)
+    background-image: url("https://www.bitsler.com/static/img/sliders/lottery.9a53dd8d.png")
 }
 
 .swiper-slide-inside.epl {
-    background-image: url(/static/img/sliders/epl.e3ea3ef3.png)
+    background-image: url("../../static/img/sliders/epl.e3ea3ef3.png")
 }
 
 .swiper-slide-inside.drops-and-wins {
-    background-image: url(/static/img/sliders/drops-and-wins.e3d68039.png)
+    background-image: url("https://www.bitsler.com/static/img/sliders/drops-and-wins.e3d68039.png")
 }
 
 .swiper-slide-inside.spinomenal-grand-holidays {
-    background-image: url(/static/img/sliders/spinomenal-grand-holidays.7e685864.jpg)
+    background-image: url("https://www.bitsler.com/static/img/sliders/spinomenal-grand-holidays.7e685864.jpg")
 }
 
 .swiper-slide-inside.welcome-bonus {
-    background-image: url(/static/img/sliders/welcome-bonus.ace05fb3.jpg)
+    background-image: url("https://i.ibb.co/P45L4pT/welcome-bonus-ace05fb3.jpg")
 }
 
 .swiper-slide-inside.videopoker-tournament {
-    background-image: url(/static/img/sliders/videopoker_tournament.d6c05ea8.jpg)
+    background-image: url("../../static/img/sliders/videopoker_tournament.d6c05ea8.jpg")
 }
 
 .swiper-slide-inside.evoplay-tournament {
-    background-image: url(/static/img/sliders/evoplay-tournament.ec835a11.png)
+    background-image: url("https://www.bitsler.com/static/img/sliders/evoplay-tournament.ec835a11.png")
 }
 
 .swiper-slide-inside.smartsoft-tournament {
-    background-image: url(/static/img/sliders/smartsoft-tournament.e3c12a4f.png)
+    background-image: url("../../static/img/sliders/smartsoft-tournament.e3c12a4f.png")
 }
 
 .swiper-slide-inside.playson-friday-cash-flash {
-    background-image: url(/static/img/sliders/playson-friday-cash-flash.17447a05.jpg)
+    background-image: url("https://www.bitsler.com/static/img/sliders/playson-friday-cash-flash.17447a05.jpg")
 }
 
 .swiper-slide-inside.wazdan-network-cash-drop {
-    background-image: url(/static/img/sliders/wazdan-network-cash-drop.767730ac.jpg)
+    background-image: url("../../static/img/sliders/wazdan-network-cash-drop.767730ac.jpg")
 }
 
 .swiper-slide-inside.epl-match {
-    background-image: url(/static/img/sliders/epl_match.55aa5d70.png)
+    background-image: url("../../static/img/sliders/epl_match.55aa5d70.png")
 }
 
 .swiper-slide-inside.ipl {
-    background-image: url(/static/img/sliders/ipl_2022.7e278fcf.png)
+    background-image: url("../../static/img/sliders/ipl_2022.7e278fcf.png")
 }
 
 .swiper-slide-inside.french_open_2022 {
-    background-image: url(/static/img/sliders/french_open.20d75968.jpg)
+    background-image: url("../../static/img/sliders/french_open.20d75968.jpg")
 }
 
 .swiper-slide-inside.csgo-cashback {
-    background-image: url(/static/img/sliders/csgo-cashback.7d0e7323.png)
+    background-image: url("../../static/img/sliders/csgo-cashback.7d0e7323.png")
 }
 
 .swiper-slide-inside.esports-joint-promotion {
-    background-image: url(/static/img/sliders/esports_joint_promotion.280bcdf0.jpg)
+    background-image: url("https://www.bitsler.com/static/img/sliders/esports_joint_promotion.280bcdf0.jpg")
 }
 
 .swiper-slide-inside.lucky-raffle {
-    background-image: url(/static/img/sliders/lucky-raffle.a0fda720.png)
+    background-image: url("../../static/img/sliders/lucky-raffle.a0fda720.png")
 }
 
 .swiper-slide-inside.rakeback_promo {
-    background-image: url(/static/img/sliders/rakeback_autumn_promo.7e4252e3.jpg)
+    background-image: url("../../static/img/sliders/rakeback_autumn_promo.7e4252e3.jpg")
 }
 
 .swiper-slide-inside.ucl {
-    background-image: url(/static/img/sliders/ucl.d249ebaf.png)
+    background-image: url("../../static/img/sliders/ucl.d249ebaf.png")
 }
 
 .swiper-slide-inside.wimbledon {
-    background-image: url(/static/img/sliders/wimbledon-tournament.ccb3e055.jpg)
+    background-image: url("../../static/img/sliders/wimbledon-tournament.ccb3e055.jpg")
 }
 
 .swiper-slide-inside.nba-promotion {
-    background-image: url(/static/img/sliders/nba_promo.b28dd408.jpg)
+    background-image: url("https://www.bitsler.com/static/img/sliders/nba_promo.b28dd408.jpg")
 }
 
 .swiper-slide-inside.uefa-champions-league {
-    background-image: url(/static/img/sliders/uefa-champions-league.6f787c17.png)
+    background-image: url("../../static/img/sliders/uefa-champions-league.6f787c17.png")
 }
 
 .swiper-slide-inside.us-open-2022 {
-    background-image: url(/static/img/sliders/us-open-2022.433df2c6.png)
+    background-image: url("../../static/img/sliders/us-open-2022.433df2c6.png")
 }
 
 .swiper-slide-inside.english-premier-league {
-    background-image: url(/static/img/sliders/english-premier-league.e6100b06.png)
+    background-image: url("../../static/img/sliders/english-premier-league.e6100b06.png")
 }
 
 .swiper-slide-inside.au-open {
-    background-image: url(/static/img/sliders/au-open.8da6cc00.png)
+    background-image: url("../../static/img/sliders/au-open.8da6cc00.png")
 }
 
 .swiper-slide-inside.dota2 {
-    background-image: url(/static/img/sliders/dota2.96d9affd.png)
+    background-image: url("../../static/img/sliders/dota2.96d9affd.png")
 }
 
 .swiper-slide-inside.gamers-galaxy {
-    background-image: url(/static/img/sliders/gamers-galaxy.f838b379.png)
+    background-image: url("../../static/img/sliders/gamers-galaxy.f838b379.png")
 }
 
 .swiper-slide-inside.xp-contest {
-    background-image: url(/static/img/sliders/xp-contest.41767f9a.png)
+    background-image: url("../../static/img/sliders/xp-contest.41767f9a.png")
 }
 
 .swiper-slide .swiper-slide-inside.vip:after {
@@ -23132,7 +23140,10 @@ a.fo-res-link {
 }
 
 .swiper-slide-inside.vip {
-    background-color: #061e40
+    background-color: #061e40;
+    width:100vw;
+    height: 100%;
+    text-align: initial;
 }
 
 .swiper-slide-inside.btslr {
@@ -23560,19 +23571,22 @@ a.fo-res-link {
     }
 
     .swiper-slide-inside.vip {
-        background-image: url(/static/img/575/vip.d0bbf30f.png)
+        background-image: url("https://www.bitsler.com/static/img/sliders/vip.6680a453.png");
     }
 
     .swiper-slide-inside.btslr {
-        background-image: url(/static/img/575/btslr.54791be1.png)
+        background-image: url("https://www.bitsler.com/static/img/sliders/btslr.d93b9e6b.png");
     }
 
     .swiper-slide-inside.lottery {
-        background-image: url(/static/img/575/lottery.3bc9ce64.png)
+        background-image: url("https://www.bitsler.com/static/img/sliders/lottery.9a53dd8d.png");
+        width:100vw;
     }
 
     .swiper-slide-inside.epl {
-        background-image: url(/static/img/575/epl.7e34d4b2.png)
+        /* background-image: url(/static/mg/575/epl.7e34d4b2.png); */
+        
+        background-image: url("https://www.bitsler.com/static/img/sliders/lottery.9a53dd8d.png");
     }
 
     .swiper-slide-inside.drops-and-wins {
@@ -23592,7 +23606,7 @@ a.fo-res-link {
     }
 
     .swiper-slide-inside.evoplay-tournament {
-        background-image: url(/static/img/575/evoplay-tournament.2e945d96.png)
+        background-image: url("https://www.bitsler.com/static/img/sliders/evoplay-tournament.ec835a11.png")
     }
 
     .swiper-slide-inside.smartsoft-tournament {
@@ -23636,7 +23650,7 @@ a.fo-res-link {
     }
 
     .swiper-slide-inside.nba-promotion {
-        background-image: url(/static/img/575/nba_promo.ceec03fc.jpg)
+        background-image: url("https://www.bitsler.com/static/img/sliders/nba_promo.b28dd408.jpg")
     }
 
     .swiper-slide-inside.us-open-2022 {
@@ -24685,7 +24699,7 @@ a.fo-res-link {
 
 .cg-games-slider-item {
     min-width: 0;
-    display: flex
+    /* display: flex */
 }
 
 .cg-games-slider-item .cg-game,
@@ -24823,7 +24837,7 @@ a.fo-res-link {
 }
 
 .ov-promos li.ov-promos-lottery h3 {
-    background-image: url(/static/img/dashboard/header_lottery.12daff32.png)
+    background-image: url("../../static/img/dashboard/esports.86e070a3.png")
 }
 
 .ov-promos li.ov-promos-social h3 {
@@ -32170,7 +32184,9 @@ div.position {
 .noti-category-head.collapsed {
     border: none
 }
-
+.siderselect{
+    padding:10px 0px;
+}
 .noti-category-body {
     background-color: rgba(0, 0, 0, .1);
     padding-left: 42px
@@ -45843,7 +45859,7 @@ h3.rakeback_promo-subtitle {
     height: 170px;
     padding: 0 42px;
     margin: 0 auto;
-    background-image: url(/static/img/sliders/welcome-bonus.ace05fb3.jpg);
+    background-image: url("../../static/img/sliders/welcome-bonus.ace05fb3.jpg");
     background-size: 100% 100%;
     display: flex;
     flex-direction: column;
@@ -46061,7 +46077,7 @@ h3.rakeback_promo-subtitle {
 }
 
 .vip-reward.lottery {
-    background-image: url(/static/img/vip/lottery.7326af2c.png);
+    background-image: url("https://www.bitsler.com/static/img/sliders/lottery.9a53dd8d.png");
     background-size: auto
 }
 
@@ -46329,3 +46345,277 @@ body.v-tour--active .chat-sidebar:before {
 .v-step__content {
     margin: 0 0 1rem
 }
+
+
+/* Slider section */
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }
+
+
+
+
+  .sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: #263340;
+    overflow-x: hidden;
+    color:white;
+    transition: left .6s cubic-bezier(0,1,0,1);
+    transition: 0.5s;
+    /* padding-top: 60px; */
+    /* position: absolute; */
+    top: 0;
+    width: 85%;
+    max-width: 380px;
+  }
+  
+  .sidebar a {
+    padding: 15px 8px 3px 20px;
+    text-decoration: none;
+    font-size: 25px;
+    /* color: #818181; */
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: white;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: #444;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 0px 20px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+
+
+
+  /* Drop down */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  /* 
+  
+  
+  
+  */
+  .mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+
+
+
+
+/* Sport side bar */
